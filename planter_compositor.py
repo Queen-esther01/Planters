@@ -7,11 +7,94 @@ Takes your real planter product photos and composites them onto storefronts with
 - Multi-band blending for photorealistic results
 """
 
-import cv2
 import numpy as np
 from pathlib import Path
 from ultralytics import SAM, YOLO
 import logging
+from PIL import Image, ImageDraw, ImageFont
+
+try:
+    import cv2  # type: ignore
+except Exception:
+    class _CV2Fallback:
+        FONT_HERSHEY_SIMPLEX = 0
+        INTER_LINEAR = Image.Resampling.BILINEAR
+        INTER_LANCZOS4 = Image.Resampling.LANCZOS
+        COLOR_BGR2BGRA = 0
+
+        @staticmethod
+        def imread(image_path):
+            try:
+                img = Image.open(image_path).convert("RGB")
+            except Exception:
+                return None
+            arr = np.array(img)
+            return arr[:, :, ::-1].copy()  # RGB -> BGR
+
+        @staticmethod
+        def imwrite(output_path, image):
+            arr = np.asarray(image)
+            if arr.ndim == 2:
+                out = Image.fromarray(arr.astype(np.uint8), mode="L")
+            elif arr.shape[2] == 3:
+                out = Image.fromarray(arr[:, :, ::-1].astype(np.uint8), mode="RGB")
+            elif arr.shape[2] == 4:
+                rgba = arr[:, :, [2, 1, 0, 3]].astype(np.uint8)
+                out = Image.fromarray(rgba, mode="RGBA")
+            else:
+                out = Image.fromarray(arr.astype(np.uint8))
+            out.save(output_path)
+            return True
+
+        @staticmethod
+        def rectangle(image, pt1, pt2, color, thickness=1):
+            rgb = (int(color[2]), int(color[1]), int(color[0]))
+            pil_img = Image.fromarray(image[:, :, ::-1].astype(np.uint8), mode="RGB")
+            draw = ImageDraw.Draw(pil_img)
+            for offset in range(thickness):
+                draw.rectangle(
+                    [pt1[0] - offset, pt1[1] - offset, pt2[0] + offset, pt2[1] + offset],
+                    outline=rgb,
+                )
+            image[:, :, :] = np.array(pil_img)[:, :, ::-1]
+
+        @staticmethod
+        def put_text(image, text, org, font_face, font_scale, color, thickness=1):
+            rgb = (int(color[2]), int(color[1]), int(color[0]))
+            pil_img = Image.fromarray(image[:, :, ::-1].astype(np.uint8), mode="RGB")
+            draw = ImageDraw.Draw(pil_img)
+            try:
+                font = ImageFont.load_default()
+            except Exception:
+                font = None
+            draw.text(org, text, fill=rgb, font=font, stroke_width=max(1, thickness - 1))
+            image[:, :, :] = np.array(pil_img)[:, :, ::-1]
+
+        @staticmethod
+        def count_non_zero(arr):
+            return int(np.count_nonzero(arr))
+
+        @staticmethod
+        def resize(image, dsize, interpolation=None):
+            pil_img = Image.fromarray(image.astype(np.uint8))
+            pil_img = pil_img.resize(dsize, interpolation or Image.Resampling.BILINEAR)
+            return np.array(pil_img)
+
+        @staticmethod
+        def cvt_color(image, code):
+            if code == _CV2Fallback.COLOR_BGR2BGRA:
+                if image.ndim == 2:
+                    image = np.stack([image, image, image], axis=-1)
+                bgr = image.astype(np.uint8)
+                alpha = np.full((bgr.shape[0], bgr.shape[1], 1), 255, dtype=np.uint8)
+                rgb = bgr[:, :, ::-1]
+                return np.concatenate([rgb, alpha], axis=2)
+            raise NotImplementedError(f"Unsupported color conversion code: {code}")
+
+    cv2 = _CV2Fallback()
+    setattr(cv2, "putText", cv2.put_text)
+    setattr(cv2, "countNonZero", cv2.count_non_zero)
+    setattr(cv2, "cvtColor", cv2.cvt_color)
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
