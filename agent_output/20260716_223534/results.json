@@ -1,0 +1,738 @@
+{
+  "timestamp": "2026-07-16T22:36:21.341008",
+  "run_id": "20260716_223534",
+  "summary": {
+    "total_images_analyzed": 40,
+    "candidates_found": 3,
+    "suitable_count": 3
+  },
+  "candidates": [
+    {
+      "name": "L'ETO Soho",
+      "address": "155 Wardour St, London W1F 8WG, UK",
+      "rating": 4.6,
+      "image": "agent_output/20260716_223534/google_places/L'ETO_Soho/photo_1.jpg",
+      "heading": "Google Places photo 1",
+      "validation": {
+        "is_storefront": true,
+        "entrance_visible": true,
+        "bare_enough": true,
+        "suitable": true,
+        "confidence": 90,
+        "reason": "The location is clearly a storefront with a visible entrance. The exterior is plain enough for planters to enhance its appearance, and there is space where they could realistically fit."
+      }
+    },
+    {
+      "name": "Maison Bertaux",
+      "address": "28 Greek St, London W1D 5DQ, UK",
+      "rating": 4.3,
+      "image": "agent_output/20260716_223534/google_places/Maison_Bertaux/photo_5.jpg",
+      "heading": "Google Places photo 5",
+      "validation": {
+        "is_storefront": true,
+        "entrance_visible": true,
+        "bare_enough": false,
+        "suitable": true,
+        "confidence": 90,
+        "reason": "It is clearly a storefront with a visible entrance. The design is vibrant with awnings, but planters could still add charm."
+      }
+    },
+    {
+      "name": "Ar\u00f4me Bakery - Mercer Street",
+      "address": "9 Mercer St, London WC2H 9QJ, UK",
+      "rating": 4.6,
+      "image": "agent_output/20260716_223534/google_places/Ar\u00f4me_Bakery_-_Mercer_Street/photo_10.jpg",
+      "heading": "Google Places photo 10",
+      "validation": {
+        "is_storefront": true,
+        "entrance_visible": true,
+        "bare_enough": true,
+        "suitable": true,
+        "confidence": 95,
+        "reason": "The image clearly shows a storefront with the entrance visible. The exterior is plain enough for planters to enhance its appearance. There seems to be space for planters to fit and look aesthetically pleasing."
+      }
+    }
+  ],
+  "all_analyzed_images": [
+    {
+      "type": "street_view",
+      "venue": "L'ETO Soho",
+      "address": "155 Wardour St, London W1F 8WG, UK",
+      "file": "agent_output/20260716_223534/360_view/L'ETO_Soho/N.jpg",
+      "heading": "N (0\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 95,
+        "reason": "The image shows an interior space, likely a co-working area, not a storefront."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 95% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "Maison Bertaux",
+      "address": "28 Greek St, London W1D 5DQ, UK",
+      "file": "agent_output/20260716_223534/360_view/Maison_Bertaux/N.jpg",
+      "heading": "N (0\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 90,
+        "reason": "The image shows an interior space with shelves and products, not an exterior storefront or entrance."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 90% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "L'ETO Soho",
+      "address": "155 Wardour St, London W1F 8WG, UK",
+      "file": "agent_output/20260716_223534/360_view/L'ETO_Soho/NE.jpg",
+      "heading": "NE (45\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 90,
+        "reason": "The image shows an interior space with curtains and furniture, not a storefront entrance."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 90% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "Maison Bertaux",
+      "address": "28 Greek St, London W1D 5DQ, UK",
+      "file": "agent_output/20260716_223534/360_view/Maison_Bertaux/NE.jpg",
+      "heading": "NE (45\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 90,
+        "reason": "The image depicts an interior view, not the outside of a storefront."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 90% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "Ar\u00f4me Bakery - Mercer Street",
+      "address": "9 Mercer St, London WC2H 9QJ, UK",
+      "file": "agent_output/20260716_223534/360_view/Ar\u00f4me_Bakery_-_Mercer_Street/N.jpg",
+      "heading": "N (0\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 95,
+        "reason": "The image shows an interior view of a bakery counter, not an exterior storefront or entrance."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 95% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "L'ETO Soho",
+      "address": "155 Wardour St, London W1F 8WG, UK",
+      "file": "agent_output/20260716_223534/360_view/L'ETO_Soho/E.jpg",
+      "heading": "E (90\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 90,
+        "reason": "The image depicts an interior space rather than a storefront entrance."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 90% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "Maison Bertaux",
+      "address": "28 Greek St, London W1D 5DQ, UK",
+      "file": "agent_output/20260716_223534/360_view/Maison_Bertaux/E.jpg",
+      "heading": "E (90\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 75,
+        "reason": "The image shows an interior view, not a storefront or shop entrance. The exterior entrance is not visible, making it unsuitable to assess planter installation."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 75% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "Ar\u00f4me Bakery - Mercer Street",
+      "address": "9 Mercer St, London WC2H 9QJ, UK",
+      "file": "agent_output/20260716_223534/360_view/Ar\u00f4me_Bakery_-_Mercer_Street/NE.jpg",
+      "heading": "NE (45\u00b0)",
+      "validation": {
+        "is_storefront": true,
+        "entrance_visible": true,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 80,
+        "reason": "The image shows the interior of a bakery where the entrance can be seen through the glass door. However, the visible entrance appears to have transparent windows and the exterior is not bare, suggesting that planters may not be necessary or suitable."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 80% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "L'ETO Soho",
+      "address": "155 Wardour St, London W1F 8WG, UK",
+      "file": "agent_output/20260716_223534/360_view/L'ETO_Soho/SE.jpg",
+      "heading": "SE (135\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 95,
+        "reason": "The image appears to be of an interior space, likely an office or hallway, rather than a storefront or shop entrance."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 95% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "Ar\u00f4me Bakery - Mercer Street",
+      "address": "9 Mercer St, London WC2H 9QJ, UK",
+      "file": "agent_output/20260716_223534/360_view/Ar\u00f4me_Bakery_-_Mercer_Street/E.jpg",
+      "heading": "E (90\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": true,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 90,
+        "reason": "The image shows an interior view of the bakery rather than the exterior storefront."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 90% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "Maison Bertaux",
+      "address": "28 Greek St, London W1D 5DQ, UK",
+      "file": "agent_output/20260716_223534/360_view/Maison_Bertaux/SE.jpg",
+      "heading": "SE (135\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 90,
+        "reason": "The image shows an interior view, not the exterior storefront or entrance, making it unsuitable for planter evaluation."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 90% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "L'ETO Soho",
+      "address": "155 Wardour St, London W1F 8WG, UK",
+      "file": "agent_output/20260716_223534/360_view/L'ETO_Soho/S.jpg",
+      "heading": "S (180\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 100,
+        "reason": "The image shows an interior hallway, not an exterior storefront or shop entrance."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 100% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "Maison Bertaux",
+      "address": "28 Greek St, London W1D 5DQ, UK",
+      "file": "agent_output/20260716_223534/360_view/Maison_Bertaux/S.jpg",
+      "heading": "S (180\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 95,
+        "reason": "The image shows an interior space with shelves, not a storefront or entrance area."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 95% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "Ar\u00f4me Bakery - Mercer Street",
+      "address": "9 Mercer St, London WC2H 9QJ, UK",
+      "file": "agent_output/20260716_223534/360_view/Ar\u00f4me_Bakery_-_Mercer_Street/SE.jpg",
+      "heading": "SE (135\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 90,
+        "reason": "The image shows the interior of a cafe, not the storefront or entrance."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 90% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "L'ETO Soho",
+      "address": "155 Wardour St, London W1F 8WG, UK",
+      "file": "agent_output/20260716_223534/360_view/L'ETO_Soho/SW.jpg",
+      "heading": "SW (225\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 95,
+        "reason": "The image shows an interior corridor, not a storefront or shop entrance, so it is not suitable for planter installation."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 95% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "Ar\u00f4me Bakery - Mercer Street",
+      "address": "9 Mercer St, London WC2H 9QJ, UK",
+      "file": "agent_output/20260716_223534/360_view/Ar\u00f4me_Bakery_-_Mercer_Street/S.jpg",
+      "heading": "S (180\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 95,
+        "reason": "The image shows an interior scene rather than a storefront or entrance."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 95% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "L'ETO Soho",
+      "address": "155 Wardour St, London W1F 8WG, UK",
+      "file": "agent_output/20260716_223534/360_view/L'ETO_Soho/W.jpg",
+      "heading": "W (270\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 90,
+        "reason": "The image shows an interior wall with artwork, not a storefront or entrance."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 90% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "Maison Bertaux",
+      "address": "28 Greek St, London W1D 5DQ, UK",
+      "file": "agent_output/20260716_223534/360_view/Maison_Bertaux/SW.jpg",
+      "heading": "SW (225\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 90,
+        "reason": "The image shows an interior with shelves and products, not a storefront entrance."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 90% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "Ar\u00f4me Bakery - Mercer Street",
+      "address": "9 Mercer St, London WC2H 9QJ, UK",
+      "file": "agent_output/20260716_223534/360_view/Ar\u00f4me_Bakery_-_Mercer_Street/SW.jpg",
+      "heading": "SW (225\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 90,
+        "reason": "The image appears to be taken inside, showing an indoor seating area rather than a storefront entrance."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 90% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "L'ETO Soho",
+      "address": "155 Wardour St, London W1F 8WG, UK",
+      "file": "agent_output/20260716_223534/360_view/L'ETO_Soho/NW.jpg",
+      "heading": "NW (315\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 90,
+        "reason": "The image shows an interior space rather than a storefront or entrance, with no visible front door. Therefore, planters are not suitable for this area."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 90% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "Maison Bertaux",
+      "address": "28 Greek St, London W1D 5DQ, UK",
+      "file": "agent_output/20260716_223534/360_view/Maison_Bertaux/W.jpg",
+      "heading": "W (270\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 95,
+        "reason": "The image shows an interior space with decorations and posters, not an exterior storefront or entrance."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 95% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "Ar\u00f4me Bakery - Mercer Street",
+      "address": "9 Mercer St, London WC2H 9QJ, UK",
+      "file": "agent_output/20260716_223534/360_view/Ar\u00f4me_Bakery_-_Mercer_Street/W.jpg",
+      "heading": "W (270\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 95,
+        "reason": "The image depicts an interior setting of a bakery with people seated and dining. There is no visible storefront or entrance for evaluating planter installation."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 95% < 70% or suitable=False"
+    },
+    {
+      "type": "google_places",
+      "venue": "L'ETO Soho",
+      "address": "155 Wardour St, London W1F 8WG, UK",
+      "file": "agent_output/20260716_223534/google_places/L'ETO_Soho/photo_1.jpg",
+      "photo_index": 1,
+      "validation": {
+        "is_storefront": true,
+        "entrance_visible": true,
+        "bare_enough": true,
+        "suitable": true,
+        "confidence": 90,
+        "reason": "The location is clearly a storefront with a visible entrance. The exterior is plain enough for planters to enhance its appearance, and there is space where they could realistically fit."
+      },
+      "is_suitable": true,
+      "reason_rejected": null
+    },
+    {
+      "type": "street_view",
+      "venue": "Maison Bertaux",
+      "address": "28 Greek St, London W1D 5DQ, UK",
+      "file": "agent_output/20260716_223534/360_view/Maison_Bertaux/NW.jpg",
+      "heading": "NW (315\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 90,
+        "reason": "This image shows an interior, not an exterior storefront."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 90% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "Ar\u00f4me Bakery - Mercer Street",
+      "address": "9 Mercer St, London WC2H 9QJ, UK",
+      "file": "agent_output/20260716_223534/360_view/Ar\u00f4me_Bakery_-_Mercer_Street/NW.jpg",
+      "heading": "NW (315\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 90,
+        "reason": "The image shows an interior view of a bakery, not a storefront. The entrance or exterior is not visible, making it unsuitable for evaluating planter installation."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 90% < 70% or suitable=False"
+    },
+    {
+      "type": "google_places",
+      "venue": "Maison Bertaux",
+      "address": "28 Greek St, London W1D 5DQ, UK",
+      "file": "agent_output/20260716_223534/google_places/Maison_Bertaux/photo_1.jpg",
+      "photo_index": 1,
+      "validation": {
+        "is_storefront": true,
+        "entrance_visible": true,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 90,
+        "reason": "The storefront has a clear entrance and is visually appealing with existing decor like awnings and outdoor seating, making additional planters less necessary."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 90% < 70% or suitable=False"
+    },
+    {
+      "type": "google_places",
+      "venue": "Ar\u00f4me Bakery - Mercer Street",
+      "address": "9 Mercer St, London WC2H 9QJ, UK",
+      "file": "agent_output/20260716_223534/google_places/Ar\u00f4me_Bakery_-_Mercer_Street/photo_1.jpg",
+      "photo_index": 1,
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 95,
+        "reason": "The image shows the interior of a bakery, not the storefront or entrance."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 95% < 70% or suitable=False"
+    },
+    {
+      "type": "google_places",
+      "venue": "Maison Bertaux",
+      "address": "28 Greek St, London W1D 5DQ, UK",
+      "file": "agent_output/20260716_223534/google_places/Maison_Bertaux/photo_2.jpg",
+      "photo_index": 2,
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 90,
+        "reason": "The image shows a table with food and drinks, not a storefront or entrance."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 90% < 70% or suitable=False"
+    },
+    {
+      "type": "google_places",
+      "venue": "Ar\u00f4me Bakery - Mercer Street",
+      "address": "9 Mercer St, London WC2H 9QJ, UK",
+      "file": "agent_output/20260716_223534/google_places/Ar\u00f4me_Bakery_-_Mercer_Street/photo_2.jpg",
+      "photo_index": 2,
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 90,
+        "reason": "The image shows the interior of a bakery with pastries, not a storefront or entrance."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 90% < 70% or suitable=False"
+    },
+    {
+      "type": "google_places",
+      "venue": "Maison Bertaux",
+      "address": "28 Greek St, London W1D 5DQ, UK",
+      "file": "agent_output/20260716_223534/google_places/Maison_Bertaux/photo_3.jpg",
+      "photo_index": 3,
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 0,
+        "reason": "The image shows food items on a table, not a storefront or entrance."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 0% < 70% or suitable=False"
+    },
+    {
+      "type": "google_places",
+      "venue": "Ar\u00f4me Bakery - Mercer Street",
+      "address": "9 Mercer St, London WC2H 9QJ, UK",
+      "file": "agent_output/20260716_223534/google_places/Ar\u00f4me_Bakery_-_Mercer_Street/photo_3.jpg",
+      "photo_index": 3,
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 0,
+        "reason": "The image shows food on a table, indicating an interior setting rather than a storefront."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 0% < 70% or suitable=False"
+    },
+    {
+      "type": "google_places",
+      "venue": "Ar\u00f4me Bakery - Mercer Street",
+      "address": "9 Mercer St, London WC2H 9QJ, UK",
+      "file": "agent_output/20260716_223534/google_places/Ar\u00f4me_Bakery_-_Mercer_Street/photo_4.jpg",
+      "photo_index": 4,
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 100,
+        "reason": "The image shows an interior bakery counter, not a storefront or entrance."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 100% < 70% or suitable=False"
+    },
+    {
+      "type": "google_places",
+      "venue": "Maison Bertaux",
+      "address": "28 Greek St, London W1D 5DQ, UK",
+      "file": "agent_output/20260716_223534/google_places/Maison_Bertaux/photo_4.jpg",
+      "photo_index": 4,
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 90,
+        "reason": "The image shows an interior view of a display of desserts, not a storefront or entrance."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 90% < 70% or suitable=False"
+    },
+    {
+      "type": "google_places",
+      "venue": "Ar\u00f4me Bakery - Mercer Street",
+      "address": "9 Mercer St, London WC2H 9QJ, UK",
+      "file": "agent_output/20260716_223534/google_places/Ar\u00f4me_Bakery_-_Mercer_Street/photo_5.jpg",
+      "photo_index": 5,
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 90,
+        "reason": "The image shows food items on a table inside a venue, not the storefront."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 90% < 70% or suitable=False"
+    },
+    {
+      "type": "google_places",
+      "venue": "Maison Bertaux",
+      "address": "28 Greek St, London W1D 5DQ, UK",
+      "file": "agent_output/20260716_223534/google_places/Maison_Bertaux/photo_5.jpg",
+      "photo_index": 5,
+      "validation": {
+        "is_storefront": true,
+        "entrance_visible": true,
+        "bare_enough": false,
+        "suitable": true,
+        "confidence": 90,
+        "reason": "It is clearly a storefront with a visible entrance. The design is vibrant with awnings, but planters could still add charm."
+      },
+      "is_suitable": true,
+      "reason_rejected": null
+    },
+    {
+      "type": "google_places",
+      "venue": "Ar\u00f4me Bakery - Mercer Street",
+      "address": "9 Mercer St, London WC2H 9QJ, UK",
+      "file": "agent_output/20260716_223534/google_places/Ar\u00f4me_Bakery_-_Mercer_Street/photo_6.jpg",
+      "photo_index": 6,
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 95,
+        "reason": "The image shows a display of food items inside a bakery, not a storefront entrance."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 95% < 70% or suitable=False"
+    },
+    {
+      "type": "google_places",
+      "venue": "Ar\u00f4me Bakery - Mercer Street",
+      "address": "9 Mercer St, London WC2H 9QJ, UK",
+      "file": "agent_output/20260716_223534/google_places/Ar\u00f4me_Bakery_-_Mercer_Street/photo_7.jpg",
+      "photo_index": 7,
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 90,
+        "reason": "The image shows a pastry, not a storefront or entrance."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 90% < 70% or suitable=False"
+    },
+    {
+      "type": "google_places",
+      "venue": "Ar\u00f4me Bakery - Mercer Street",
+      "address": "9 Mercer St, London WC2H 9QJ, UK",
+      "file": "agent_output/20260716_223534/google_places/Ar\u00f4me_Bakery_-_Mercer_Street/photo_8.jpg",
+      "photo_index": 8,
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 90,
+        "reason": "The image shows an interior shot of baked goods, not an exterior storefront."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 90% < 70% or suitable=False"
+    },
+    {
+      "type": "google_places",
+      "venue": "Ar\u00f4me Bakery - Mercer Street",
+      "address": "9 Mercer St, London WC2H 9QJ, UK",
+      "file": "agent_output/20260716_223534/google_places/Ar\u00f4me_Bakery_-_Mercer_Street/photo_9.jpg",
+      "photo_index": 9,
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 100,
+        "reason": "The image shows the interior of a bakery displaying pastries, not a storefront or entrance."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 100% < 70% or suitable=False"
+    },
+    {
+      "type": "google_places",
+      "venue": "Ar\u00f4me Bakery - Mercer Street",
+      "address": "9 Mercer St, London WC2H 9QJ, UK",
+      "file": "agent_output/20260716_223534/google_places/Ar\u00f4me_Bakery_-_Mercer_Street/photo_10.jpg",
+      "photo_index": 10,
+      "validation": {
+        "is_storefront": true,
+        "entrance_visible": true,
+        "bare_enough": true,
+        "suitable": true,
+        "confidence": 95,
+        "reason": "The image clearly shows a storefront with the entrance visible. The exterior is plain enough for planters to enhance its appearance. There seems to be space for planters to fit and look aesthetically pleasing."
+      },
+      "is_suitable": true,
+      "reason_rejected": null
+    }
+  ]
+}

@@ -1,0 +1,976 @@
+{
+  "timestamp": "2026-07-17T14:31:48.793192",
+  "run_id": "20260717_143017",
+  "summary": {
+    "total_images_analyzed": 48,
+    "candidates_found": 3,
+    "suitable_count": 3
+  },
+  "candidates": [
+    {
+      "name": "Kiss the Hippo Coffee Soho",
+      "address": "30 Golden Square, London W1F 9LD, UK",
+      "rating": 4.6,
+      "image": "agent_output/20260717_143017/google_places/Kiss_the_Hippo_Coffee_Soho/photo_4.jpg",
+      "heading": "Google Places photo 4",
+      "validation": {
+        "is_storefront": true,
+        "entrance_visible": true,
+        "full_view": true,
+        "bare_enough": true,
+        "venue_identified": true,
+        "suitable": true,
+        "confidence": 100,
+        "reason": "The image clearly shows the Kiss the Hippo Coffee Soho storefront with visible signage, a fully unobstructed view, and visible entrance. The facade is simple, making it suitable for planter installation visualization."
+      }
+    },
+    {
+      "name": "Sess\u00f9n",
+      "address": "45 Redchurch St, London E2 7DJ, UK",
+      "rating": 5.0,
+      "image": "agent_output/20260717_143017/google_places/Sess\u00f9n/photo_8.jpg",
+      "heading": "Google Places photo 8",
+      "validation": {
+        "is_storefront": true,
+        "entrance_visible": true,
+        "full_view": true,
+        "bare_enough": true,
+        "venue_identified": true,
+        "suitable": true,
+        "confidence": 95,
+        "reason": "The storefront of Sess\u00f9n is clearly visible with its signage and entrance. The view is complete, and planters would enhance its appearance."
+      }
+    },
+    {
+      "name": "Hershesons Fitzrovia",
+      "address": "29-32 Berners St, London W1T 3LR, UK",
+      "rating": 4.8,
+      "image": "agent_output/20260717_143017/360_view/Hershesons_Fitzrovia/NE.jpg",
+      "heading": "NE (45\u00b0)",
+      "validation": {
+        "is_storefront": true,
+        "entrance_visible": true,
+        "full_view": true,
+        "bare_enough": true,
+        "venue_identified": true,
+        "suitable": true,
+        "confidence": 100,
+        "reason": "The storefront is clearly identified with the Hershesons signage visible, the entrance is unobstructed, and the full facade is plain enough for planters to improve it."
+      }
+    }
+  ],
+  "all_analyzed_images": [
+    {
+      "type": "street_view",
+      "venue": "Fabler Bakery Camden",
+      "address": "88 Camden High St, London NW1 0LT, UK",
+      "file": "agent_output/20260717_143017/360_view/Fabler_Bakery_Camden/N.jpg",
+      "heading": "N (0\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "full_view": false,
+        "bare_enough": false,
+        "venue_identified": false,
+        "suitable": false,
+        "confidence": 90,
+        "reason": "The image shows an interior view, not a storefront."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 90% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "Sess\u00f9n",
+      "address": "45 Redchurch St, London E2 7DJ, UK",
+      "file": "agent_output/20260717_143017/360_view/Sess\u00f9n/N.jpg",
+      "heading": "N (0\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "full_view": false,
+        "bare_enough": false,
+        "venue_identified": false,
+        "suitable": false,
+        "confidence": 100,
+        "reason": "The image does not show the storefront of Sess\u00f9n at 45 Redchurch St. The view does not include any visible signage or branding of the venue, nor does it provide a clear view of an entrance."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 100% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "Kiss the Hippo Coffee Soho",
+      "address": "30 Golden Square, London W1F 9LD, UK",
+      "file": "agent_output/20260717_143017/360_view/Kiss_the_Hippo_Coffee_Soho/N.jpg",
+      "heading": "N (0\u00b0)",
+      "validation": {
+        "is_storefront": true,
+        "entrance_visible": true,
+        "full_view": true,
+        "bare_enough": true,
+        "venue_identified": false,
+        "suitable": false,
+        "confidence": 70,
+        "reason": "The storefront is visible and unobstructed, but there's no clear branding or signage to confirm it as Kiss the Hippo Coffee Soho."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 70% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "Fabler Bakery Camden",
+      "address": "88 Camden High St, London NW1 0LT, UK",
+      "file": "agent_output/20260717_143017/360_view/Fabler_Bakery_Camden/NE.jpg",
+      "heading": "NE (45\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "full_view": false,
+        "bare_enough": true,
+        "venue_identified": false,
+        "suitable": false,
+        "confidence": 0,
+        "reason": "The image shows an interior, not the exterior storefront. The entrance and full exterior view are not visible."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 0% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "Kiss the Hippo Coffee Soho",
+      "address": "30 Golden Square, London W1F 9LD, UK",
+      "file": "agent_output/20260717_143017/360_view/Kiss_the_Hippo_Coffee_Soho/NE.jpg",
+      "heading": "NE (45\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "full_view": false,
+        "bare_enough": false,
+        "venue_identified": false,
+        "suitable": false,
+        "confidence": 70,
+        "reason": "The image does not clearly show signage or branding for Kiss the Hippo Coffee Soho, nor is the entrance visible or identifiable. The view does not confirm it is the venue's storefront."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 70% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "Fabler Bakery Camden",
+      "address": "88 Camden High St, London NW1 0LT, UK",
+      "file": "agent_output/20260717_143017/360_view/Fabler_Bakery_Camden/E.jpg",
+      "heading": "E (90\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "full_view": false,
+        "bare_enough": false,
+        "venue_identified": false,
+        "suitable": false,
+        "confidence": 90,
+        "reason": "The image does not show an exterior storefront; it appears to be an interior view."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 90% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "Sess\u00f9n",
+      "address": "45 Redchurch St, London E2 7DJ, UK",
+      "file": "agent_output/20260717_143017/360_view/Sess\u00f9n/NE.jpg",
+      "heading": "NE (45\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "full_view": false,
+        "bare_enough": false,
+        "venue_identified": false,
+        "suitable": false,
+        "confidence": 90,
+        "reason": "The image does not clearly show Sess\u00f9n's storefront, entrance, or signage. The view is obstructed and not suitable for planter visualization."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 90% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "Kiss the Hippo Coffee Soho",
+      "address": "30 Golden Square, London W1F 9LD, UK",
+      "file": "agent_output/20260717_143017/360_view/Kiss_the_Hippo_Coffee_Soho/E.jpg",
+      "heading": "E (90\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "full_view": false,
+        "bare_enough": false,
+        "venue_identified": false,
+        "suitable": false,
+        "confidence": 0,
+        "reason": "The image does not show any storefront, signage, name, or branding related to Kiss the Hippo Coffee Soho. The view is of the street and not specific to any venue."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 0% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "Fabler Bakery Camden",
+      "address": "88 Camden High St, London NW1 0LT, UK",
+      "file": "agent_output/20260717_143017/360_view/Fabler_Bakery_Camden/SE.jpg",
+      "heading": "SE (135\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "full_view": false,
+        "bare_enough": false,
+        "venue_identified": false,
+        "suitable": false,
+        "confidence": 100,
+        "reason": "The image does not show a storefront; it seems to be an interior shot."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 100% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "Sess\u00f9n",
+      "address": "45 Redchurch St, London E2 7DJ, UK",
+      "file": "agent_output/20260717_143017/360_view/Sess\u00f9n/E.jpg",
+      "heading": "E (90\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "full_view": false,
+        "bare_enough": false,
+        "venue_identified": false,
+        "suitable": false,
+        "confidence": 100,
+        "reason": "The image does not clearly show Sess\u00f9n's signage or a complete, unobstructed view of the storefront entrance."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 100% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "Fabler Bakery Camden",
+      "address": "88 Camden High St, London NW1 0LT, UK",
+      "file": "agent_output/20260717_143017/360_view/Fabler_Bakery_Camden/S.jpg",
+      "heading": "S (180\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "full_view": false,
+        "bare_enough": false,
+        "venue_identified": false,
+        "suitable": false,
+        "confidence": 0,
+        "reason": "The image does not show any signage, branding, or a clear view of an exterior storefront. It appears to be an interior space."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 0% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "Sess\u00f9n",
+      "address": "45 Redchurch St, London E2 7DJ, UK",
+      "file": "agent_output/20260717_143017/360_view/Sess\u00f9n/SE.jpg",
+      "heading": "SE (135\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "full_view": false,
+        "bare_enough": false,
+        "venue_identified": false,
+        "suitable": false,
+        "confidence": 0,
+        "reason": "The image does not clearly show Sess\u00f9n's storefront; branding is not visible, and the view is obstructed."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 0% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "Kiss the Hippo Coffee Soho",
+      "address": "30 Golden Square, London W1F 9LD, UK",
+      "file": "agent_output/20260717_143017/360_view/Kiss_the_Hippo_Coffee_Soho/SE.jpg",
+      "heading": "SE (135\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "full_view": false,
+        "bare_enough": false,
+        "venue_identified": false,
+        "suitable": false,
+        "confidence": 100,
+        "reason": "The image does not show any storefront or signage for Kiss the Hippo Coffee Soho."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 100% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "Fabler Bakery Camden",
+      "address": "88 Camden High St, London NW1 0LT, UK",
+      "file": "agent_output/20260717_143017/360_view/Fabler_Bakery_Camden/SW.jpg",
+      "heading": "SW (225\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "full_view": false,
+        "bare_enough": false,
+        "venue_identified": false,
+        "suitable": false,
+        "confidence": 0,
+        "reason": "The image shows an interior view, not the complete exterior storefront of Fabler Bakery Camden."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 0% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "Kiss the Hippo Coffee Soho",
+      "address": "30 Golden Square, London W1F 9LD, UK",
+      "file": "agent_output/20260717_143017/360_view/Kiss_the_Hippo_Coffee_Soho/S.jpg",
+      "heading": "S (180\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "full_view": false,
+        "bare_enough": false,
+        "venue_identified": false,
+        "suitable": false,
+        "confidence": 80,
+        "reason": "The image does not clearly show any signage or branding for Kiss the Hippo Coffee Soho."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 80% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "Sess\u00f9n",
+      "address": "45 Redchurch St, London E2 7DJ, UK",
+      "file": "agent_output/20260717_143017/360_view/Sess\u00f9n/S.jpg",
+      "heading": "S (180\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "full_view": false,
+        "bare_enough": false,
+        "venue_identified": false,
+        "suitable": false,
+        "confidence": 0,
+        "reason": "The image does not clearly show Sess\u00f9n's storefront. No signage or identifiable features of the venue are visible, and the view is obstructed."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 0% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "Sess\u00f9n",
+      "address": "45 Redchurch St, London E2 7DJ, UK",
+      "file": "agent_output/20260717_143017/360_view/Sess\u00f9n/SW.jpg",
+      "heading": "SW (225\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "full_view": false,
+        "bare_enough": false,
+        "venue_identified": false,
+        "suitable": false,
+        "confidence": 0,
+        "reason": "The image does not show Sess\u00f9n's storefront or its signage clearly. The storefront is not complete or identifiable."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 0% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "Kiss the Hippo Coffee Soho",
+      "address": "30 Golden Square, London W1F 9LD, UK",
+      "file": "agent_output/20260717_143017/360_view/Kiss_the_Hippo_Coffee_Soho/SW.jpg",
+      "heading": "SW (225\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": true,
+        "full_view": true,
+        "bare_enough": true,
+        "venue_identified": false,
+        "suitable": false,
+        "confidence": 90,
+        "reason": "The image does not show any identifiable signage or branding for Kiss the Hippo Coffee Soho."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 90% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "Sess\u00f9n",
+      "address": "45 Redchurch St, London E2 7DJ, UK",
+      "file": "agent_output/20260717_143017/360_view/Sess\u00f9n/W.jpg",
+      "heading": "W (270\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "full_view": false,
+        "bare_enough": false,
+        "venue_identified": false,
+        "suitable": false,
+        "confidence": 90,
+        "reason": "The image does not show Sess\u00f9n's signage or branding, nor is the storefront fully visible."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 90% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "Kiss the Hippo Coffee Soho",
+      "address": "30 Golden Square, London W1F 9LD, UK",
+      "file": "agent_output/20260717_143017/360_view/Kiss_the_Hippo_Coffee_Soho/W.jpg",
+      "heading": "W (270\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "full_view": false,
+        "bare_enough": false,
+        "venue_identified": false,
+        "suitable": false,
+        "confidence": 0,
+        "reason": "The image does not clearly identify Kiss the Hippo Coffee Soho's storefront."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 0% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "Sess\u00f9n",
+      "address": "45 Redchurch St, London E2 7DJ, UK",
+      "file": "agent_output/20260717_143017/360_view/Sess\u00f9n/NW.jpg",
+      "heading": "NW (315\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "full_view": false,
+        "bare_enough": false,
+        "venue_identified": false,
+        "suitable": false,
+        "confidence": 100,
+        "reason": "The image does not show Sess\u00f9n's storefront. The signage and branding are for a different venue."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 100% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "Fabler Bakery Camden",
+      "address": "88 Camden High St, London NW1 0LT, UK",
+      "file": "agent_output/20260717_143017/360_view/Fabler_Bakery_Camden/W.jpg",
+      "heading": "W (270\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "full_view": false,
+        "bare_enough": false,
+        "venue_identified": false,
+        "suitable": false,
+        "confidence": 90,
+        "reason": "The image is taken from inside the store and does not show the full exterior storefront view."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 90% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "Kiss the Hippo Coffee Soho",
+      "address": "30 Golden Square, London W1F 9LD, UK",
+      "file": "agent_output/20260717_143017/360_view/Kiss_the_Hippo_Coffee_Soho/NW.jpg",
+      "heading": "NW (315\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "full_view": false,
+        "bare_enough": false,
+        "venue_identified": false,
+        "suitable": false,
+        "confidence": 0,
+        "reason": "The image doesn't show any identifiable signage or branding for Kiss the Hippo Coffee Soho, nor does it provide a clear view of the storefront or entrance."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 0% < 70% or suitable=False"
+    },
+    {
+      "type": "google_places",
+      "venue": "Sess\u00f9n",
+      "address": "45 Redchurch St, London E2 7DJ, UK",
+      "file": "agent_output/20260717_143017/google_places/Sess\u00f9n/photo_1.jpg",
+      "photo_index": 1,
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "full_view": false,
+        "bare_enough": false,
+        "venue_identified": false,
+        "suitable": false,
+        "confidence": 0,
+        "reason": "The image shows an interior rather than a storefront, and no signage or entrance is visible."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 0% < 70% or suitable=False"
+    },
+    {
+      "type": "google_places",
+      "venue": "Kiss the Hippo Coffee Soho",
+      "address": "30 Golden Square, London W1F 9LD, UK",
+      "file": "agent_output/20260717_143017/google_places/Kiss_the_Hippo_Coffee_Soho/photo_1.jpg",
+      "photo_index": 1,
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "full_view": false,
+        "bare_enough": false,
+        "venue_identified": false,
+        "suitable": false,
+        "confidence": 100,
+        "reason": "The image is inside the cafe, not showing the storefront."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 100% < 70% or suitable=False"
+    },
+    {
+      "type": "google_places",
+      "venue": "Sess\u00f9n",
+      "address": "45 Redchurch St, London E2 7DJ, UK",
+      "file": "agent_output/20260717_143017/google_places/Sess\u00f9n/photo_2.jpg",
+      "photo_index": 2,
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "full_view": false,
+        "bare_enough": false,
+        "venue_identified": false,
+        "suitable": false,
+        "confidence": 100,
+        "reason": "The image shows an interior view, not a storefront, with no visible entrance or exterior features."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 100% < 70% or suitable=False"
+    },
+    {
+      "type": "google_places",
+      "venue": "Kiss the Hippo Coffee Soho",
+      "address": "30 Golden Square, London W1F 9LD, UK",
+      "file": "agent_output/20260717_143017/google_places/Kiss_the_Hippo_Coffee_Soho/photo_2.jpg",
+      "photo_index": 2,
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "full_view": false,
+        "bare_enough": false,
+        "venue_identified": false,
+        "suitable": false,
+        "confidence": 90,
+        "reason": "The image shows the interior of a cafe, not an exterior storefront view. Key elements such as signage and full exterior are missing."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 90% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "Fabler Bakery Camden",
+      "address": "88 Camden High St, London NW1 0LT, UK",
+      "file": "agent_output/20260717_143017/360_view/Fabler_Bakery_Camden/NW.jpg",
+      "heading": "NW (315\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "full_view": false,
+        "bare_enough": false,
+        "venue_identified": false,
+        "suitable": false,
+        "confidence": 100,
+        "reason": "The image shows an interior view of a bakery, not the exterior storefront."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 100% < 70% or suitable=False"
+    },
+    {
+      "type": "google_places",
+      "venue": "Kiss the Hippo Coffee Soho",
+      "address": "30 Golden Square, London W1F 9LD, UK",
+      "file": "agent_output/20260717_143017/google_places/Kiss_the_Hippo_Coffee_Soho/photo_3.jpg",
+      "photo_index": 3,
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "full_view": false,
+        "bare_enough": false,
+        "venue_identified": false,
+        "suitable": false,
+        "confidence": 100,
+        "reason": "The image shows a coffee being poured inside, not the storefront. No signage or entrance visible."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 100% < 70% or suitable=False"
+    },
+    {
+      "type": "google_places",
+      "venue": "Sess\u00f9n",
+      "address": "45 Redchurch St, London E2 7DJ, UK",
+      "file": "agent_output/20260717_143017/google_places/Sess\u00f9n/photo_3.jpg",
+      "photo_index": 3,
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "full_view": false,
+        "bare_enough": false,
+        "venue_identified": false,
+        "suitable": false,
+        "confidence": 0,
+        "reason": "The image does not clearly show any storefront signage or entrance. It's mainly a reflection with no identifiable characteristics of a specific venue."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 0% < 70% or suitable=False"
+    },
+    {
+      "type": "google_places",
+      "venue": "Fabler Bakery Camden",
+      "address": "88 Camden High St, London NW1 0LT, UK",
+      "file": "agent_output/20260717_143017/google_places/Fabler_Bakery_Camden/photo_1.jpg",
+      "photo_index": 1,
+      "validation": {
+        "is_storefront": true,
+        "entrance_visible": false,
+        "full_view": false,
+        "bare_enough": true,
+        "venue_identified": true,
+        "suitable": false,
+        "confidence": 85,
+        "reason": "The venue is identified as Fabler Bakery with visible branding. However, the entrance is not clearly visible, and the view of the storefront is partial and obstructed, making it unsuitable for visualization."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 85% < 70% or suitable=False"
+    },
+    {
+      "type": "google_places",
+      "venue": "Sess\u00f9n",
+      "address": "45 Redchurch St, London E2 7DJ, UK",
+      "file": "agent_output/20260717_143017/google_places/Sess\u00f9n/photo_4.jpg",
+      "photo_index": 4,
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "full_view": false,
+        "bare_enough": false,
+        "venue_identified": false,
+        "suitable": false,
+        "confidence": 100,
+        "reason": "The image is of an interior space and does not show the storefront or entrance."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 100% < 70% or suitable=False"
+    },
+    {
+      "type": "google_places",
+      "venue": "Fabler Bakery Camden",
+      "address": "88 Camden High St, London NW1 0LT, UK",
+      "file": "agent_output/20260717_143017/google_places/Fabler_Bakery_Camden/photo_2.jpg",
+      "photo_index": 2,
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "full_view": false,
+        "bare_enough": false,
+        "venue_identified": false,
+        "suitable": false,
+        "confidence": 100,
+        "reason": "The image is of various dishes and not a storefront."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 100% < 70% or suitable=False"
+    },
+    {
+      "type": "google_places",
+      "venue": "Kiss the Hippo Coffee Soho",
+      "address": "30 Golden Square, London W1F 9LD, UK",
+      "file": "agent_output/20260717_143017/google_places/Kiss_the_Hippo_Coffee_Soho/photo_4.jpg",
+      "photo_index": 4,
+      "validation": {
+        "is_storefront": true,
+        "entrance_visible": true,
+        "full_view": true,
+        "bare_enough": true,
+        "venue_identified": true,
+        "suitable": true,
+        "confidence": 100,
+        "reason": "The image clearly shows the Kiss the Hippo Coffee Soho storefront with visible signage, a fully unobstructed view, and visible entrance. The facade is simple, making it suitable for planter installation visualization."
+      },
+      "is_suitable": true,
+      "reason_rejected": null
+    },
+    {
+      "type": "google_places",
+      "venue": "Sess\u00f9n",
+      "address": "45 Redchurch St, London E2 7DJ, UK",
+      "file": "agent_output/20260717_143017/google_places/Sess\u00f9n/photo_5.jpg",
+      "photo_index": 5,
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "full_view": false,
+        "bare_enough": false,
+        "venue_identified": false,
+        "suitable": false,
+        "confidence": 100,
+        "reason": "The image shows an interior space, not a storefront view, and there is no visible signage or exterior element."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 100% < 70% or suitable=False"
+    },
+    {
+      "type": "google_places",
+      "venue": "Fabler Bakery Camden",
+      "address": "88 Camden High St, London NW1 0LT, UK",
+      "file": "agent_output/20260717_143017/google_places/Fabler_Bakery_Camden/photo_3.jpg",
+      "photo_index": 3,
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "full_view": false,
+        "bare_enough": false,
+        "venue_identified": false,
+        "suitable": false,
+        "confidence": 100,
+        "reason": "The image shows food items and a dining table, not a storefront."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 100% < 70% or suitable=False"
+    },
+    {
+      "type": "google_places",
+      "venue": "Sess\u00f9n",
+      "address": "45 Redchurch St, London E2 7DJ, UK",
+      "file": "agent_output/20260717_143017/google_places/Sess\u00f9n/photo_6.jpg",
+      "photo_index": 6,
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "full_view": false,
+        "bare_enough": false,
+        "venue_identified": false,
+        "suitable": false,
+        "confidence": 90,
+        "reason": "The image shows an interior view from inside a store, not an exterior storefront with signage visible."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 90% < 70% or suitable=False"
+    },
+    {
+      "type": "google_places",
+      "venue": "Fabler Bakery Camden",
+      "address": "88 Camden High St, London NW1 0LT, UK",
+      "file": "agent_output/20260717_143017/google_places/Fabler_Bakery_Camden/photo_4.jpg",
+      "photo_index": 4,
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "full_view": false,
+        "bare_enough": false,
+        "venue_identified": false,
+        "suitable": false,
+        "confidence": 0,
+        "reason": "The image shows food items, not a storefront."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 0% < 70% or suitable=False"
+    },
+    {
+      "type": "google_places",
+      "venue": "Sess\u00f9n",
+      "address": "45 Redchurch St, London E2 7DJ, UK",
+      "file": "agent_output/20260717_143017/google_places/Sess\u00f9n/photo_7.jpg",
+      "photo_index": 7,
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "full_view": false,
+        "bare_enough": false,
+        "venue_identified": false,
+        "suitable": false,
+        "confidence": 0,
+        "reason": "The image does not show a storefront; it shows a close-up of clothing."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 0% < 70% or suitable=False"
+    },
+    {
+      "type": "google_places",
+      "venue": "Fabler Bakery Camden",
+      "address": "88 Camden High St, London NW1 0LT, UK",
+      "file": "agent_output/20260717_143017/google_places/Fabler_Bakery_Camden/photo_5.jpg",
+      "photo_index": 5,
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "full_view": false,
+        "bare_enough": false,
+        "venue_identified": false,
+        "suitable": false,
+        "confidence": 100,
+        "reason": "The image shows a table setting with food, not a storefront."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 100% < 70% or suitable=False"
+    },
+    {
+      "type": "google_places",
+      "venue": "Sess\u00f9n",
+      "address": "45 Redchurch St, London E2 7DJ, UK",
+      "file": "agent_output/20260717_143017/google_places/Sess\u00f9n/photo_8.jpg",
+      "photo_index": 8,
+      "validation": {
+        "is_storefront": true,
+        "entrance_visible": true,
+        "full_view": true,
+        "bare_enough": true,
+        "venue_identified": true,
+        "suitable": true,
+        "confidence": 95,
+        "reason": "The storefront of Sess\u00f9n is clearly visible with its signage and entrance. The view is complete, and planters would enhance its appearance."
+      },
+      "is_suitable": true,
+      "reason_rejected": null
+    },
+    {
+      "type": "google_places",
+      "venue": "Fabler Bakery Camden",
+      "address": "88 Camden High St, London NW1 0LT, UK",
+      "file": "agent_output/20260717_143017/google_places/Fabler_Bakery_Camden/photo_6.jpg",
+      "photo_index": 6,
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "full_view": false,
+        "bare_enough": false,
+        "venue_identified": false,
+        "suitable": false,
+        "confidence": 100,
+        "reason": "The image shows an interior, not the exterior storefront of Fabler Bakery Camden."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 100% < 70% or suitable=False"
+    },
+    {
+      "type": "google_places",
+      "venue": "Fabler Bakery Camden",
+      "address": "88 Camden High St, London NW1 0LT, UK",
+      "file": "agent_output/20260717_143017/google_places/Fabler_Bakery_Camden/photo_7.jpg",
+      "photo_index": 7,
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "full_view": false,
+        "bare_enough": false,
+        "venue_identified": false,
+        "suitable": false,
+        "confidence": 0,
+        "reason": "The image shows an interior view, not a storefront."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 0% < 70% or suitable=False"
+    },
+    {
+      "type": "google_places",
+      "venue": "Fabler Bakery Camden",
+      "address": "88 Camden High St, London NW1 0LT, UK",
+      "file": "agent_output/20260717_143017/google_places/Fabler_Bakery_Camden/photo_8.jpg",
+      "photo_index": 8,
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "full_view": false,
+        "bare_enough": false,
+        "venue_identified": false,
+        "suitable": false,
+        "confidence": 100,
+        "reason": "The image shows a plate of food, not a storefront."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 100% < 70% or suitable=False"
+    },
+    {
+      "type": "google_places",
+      "venue": "Fabler Bakery Camden",
+      "address": "88 Camden High St, London NW1 0LT, UK",
+      "file": "agent_output/20260717_143017/google_places/Fabler_Bakery_Camden/photo_9.jpg",
+      "photo_index": 9,
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "full_view": false,
+        "bare_enough": false,
+        "venue_identified": false,
+        "suitable": false,
+        "confidence": 100,
+        "reason": "The image shows food, not a storefront."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 100% < 70% or suitable=False"
+    },
+    {
+      "type": "google_places",
+      "venue": "Fabler Bakery Camden",
+      "address": "88 Camden High St, London NW1 0LT, UK",
+      "file": "agent_output/20260717_143017/google_places/Fabler_Bakery_Camden/photo_10.jpg",
+      "photo_index": 10,
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "full_view": false,
+        "bare_enough": false,
+        "venue_identified": false,
+        "suitable": false,
+        "confidence": 100,
+        "reason": "The image shows food, not a storefront."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 100% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "Hershesons Fitzrovia",
+      "address": "29-32 Berners St, London W1T 3LR, UK",
+      "file": "agent_output/20260717_143017/360_view/Hershesons_Fitzrovia/N.jpg",
+      "heading": "N (0\u00b0)",
+      "validation": {
+        "is_storefront": true,
+        "entrance_visible": true,
+        "full_view": false,
+        "bare_enough": true,
+        "venue_identified": true,
+        "suitable": false,
+        "confidence": 80,
+        "reason": "The storefront is identified and visible, but the view is partially obstructed, not showing the full facade."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 80% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "Hershesons Fitzrovia",
+      "address": "29-32 Berners St, London W1T 3LR, UK",
+      "file": "agent_output/20260717_143017/360_view/Hershesons_Fitzrovia/NE.jpg",
+      "heading": "NE (45\u00b0)",
+      "validation": {
+        "is_storefront": true,
+        "entrance_visible": true,
+        "full_view": true,
+        "bare_enough": true,
+        "venue_identified": true,
+        "suitable": true,
+        "confidence": 100,
+        "reason": "The storefront is clearly identified with the Hershesons signage visible, the entrance is unobstructed, and the full facade is plain enough for planters to improve it."
+      },
+      "is_suitable": true,
+      "reason_rejected": null
+    }
+  ]
+}

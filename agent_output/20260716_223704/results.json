@@ -1,0 +1,1994 @@
+{
+  "timestamp": "2026-07-16T22:39:13.394092",
+  "run_id": "20260716_223704",
+  "summary": {
+    "total_images_analyzed": 113,
+    "candidates_found": 4,
+    "suitable_count": 4
+  },
+  "candidates": [
+    {
+      "name": "Saint + Sofia | Covent Garden",
+      "address": "35 Monmouth St, London WC2H 9DD, UK",
+      "rating": 4.9,
+      "image": "agent_output/20260716_223704/google_places/Saint_+_Sofia_|_Covent_Garden/photo_1.jpg",
+      "heading": "Google Places photo 1",
+      "validation": {
+        "is_storefront": true,
+        "entrance_visible": true,
+        "bare_enough": true,
+        "suitable": true,
+        "confidence": 95,
+        "reason": "The storefront is clearly visible and identifiable with a prominent entrance. The fa\u00e7ade is plain and minimalistic, suggesting that planters could enhance its appearance. There appears to be enough space for planters."
+      }
+    },
+    {
+      "name": "Fallow",
+      "address": "52 Haymarket, London SW1Y 4RP, UK",
+      "rating": 4.7,
+      "image": "agent_output/20260716_223704/360_view/Fallow/NE.jpg",
+      "heading": "NE (45\u00b0)",
+      "validation": {
+        "is_storefront": true,
+        "entrance_visible": true,
+        "bare_enough": true,
+        "suitable": true,
+        "confidence": 90,
+        "reason": "The image shows a storefront with a visible entrance. The area is plain, and planters would enhance its appearance."
+      }
+    },
+    {
+      "name": "WatchHouse Seven Dials",
+      "address": "7 Upper St Martin's Ln, London WC2H 9DL, UK",
+      "rating": 4.5,
+      "image": "agent_output/20260716_223704/360_view/WatchHouse_Seven_Dials/E.jpg",
+      "heading": "E (90\u00b0)",
+      "validation": {
+        "is_storefront": true,
+        "entrance_visible": true,
+        "bare_enough": true,
+        "suitable": true,
+        "confidence": 95,
+        "reason": "The image shows a clear storefront with visible entrances. The area is plain enough, and there is space where planters could be added to enhance its appearance."
+      }
+    },
+    {
+      "name": "Regency Cafe",
+      "address": "17-19 Regency St, London SW1P 4BY, UK",
+      "rating": 4.7,
+      "image": "agent_output/20260716_223704/google_places/Regency_Cafe/photo_1.jpg",
+      "heading": "Google Places photo 1",
+      "validation": {
+        "is_storefront": true,
+        "entrance_visible": true,
+        "bare_enough": true,
+        "suitable": true,
+        "confidence": 95,
+        "reason": "The image shows a clear storefront with the entrance visible. The facade is plain and could benefit aesthetically from planters, which would fit well in the surrounding area."
+      }
+    }
+  ],
+  "all_analyzed_images": [
+    {
+      "type": "street_view",
+      "venue": "Liberty London",
+      "address": "Regent St., Carnaby, London W1B 5AH, UK",
+      "file": "agent_output/20260716_223704/360_view/Liberty_London/N.jpg",
+      "heading": "N (0\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 95,
+        "reason": "The image shows an interior space rather than a storefront exterior, therefore planters cannot be evaluated for installation."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 95% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "Saint + Sofia | Covent Garden",
+      "address": "35 Monmouth St, London WC2H 9DD, UK",
+      "file": "agent_output/20260716_223704/360_view/Saint_+_Sofia_|_Covent_Garden/N.jpg",
+      "heading": "N (0\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 90,
+        "reason": "The image shows an interior with clothing racks and a counter, not an exterior storefront."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 90% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "Chestnut Bakery, Piccadilly",
+      "address": "162 Piccadilly, London W1J 9ED, UK",
+      "file": "agent_output/20260716_223704/360_view/Chestnut_Bakery,_Piccadilly/N.jpg",
+      "heading": "N (0\u00b0)",
+      "validation": {
+        "is_storefront": true,
+        "entrance_visible": true,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 70,
+        "reason": "The area appears to be a storefront, and the entrance is visible. However, the environment is not bare as it is surrounded by scaffolding and structures, making it less suitable for planters."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 70% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "Saint + Sofia | Covent Garden",
+      "address": "35 Monmouth St, London WC2H 9DD, UK",
+      "file": "agent_output/20260716_223704/360_view/Saint_+_Sofia_|_Covent_Garden/NE.jpg",
+      "heading": "NE (45\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 90,
+        "reason": "The image shows an interior of a shop, not the storefront or entrance."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 90% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "Liberty London",
+      "address": "Regent St., Carnaby, London W1B 5AH, UK",
+      "file": "agent_output/20260716_223704/360_view/Liberty_London/NE.jpg",
+      "heading": "NE (45\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 90,
+        "reason": "The image shows an interior view of a store with merchandise and displays, not an external storefront or entrance."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 90% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "Chestnut Bakery, Piccadilly",
+      "address": "162 Piccadilly, London W1J 9ED, UK",
+      "file": "agent_output/20260716_223704/360_view/Chestnut_Bakery,_Piccadilly/NE.jpg",
+      "heading": "NE (45\u00b0)",
+      "validation": {
+        "is_storefront": true,
+        "entrance_visible": false,
+        "bare_enough": true,
+        "suitable": false,
+        "confidence": 80,
+        "reason": "The storefront is present, but the entrance is obstructed by scaffolding. Planters would fit but the construction may limit their impact."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 80% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "Saint + Sofia | Covent Garden",
+      "address": "35 Monmouth St, London WC2H 9DD, UK",
+      "file": "agent_output/20260716_223704/360_view/Saint_+_Sofia_|_Covent_Garden/E.jpg",
+      "heading": "E (90\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 95,
+        "reason": "The image shows an interior space, not a storefront or shop entrance."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 95% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "Liberty London",
+      "address": "Regent St., Carnaby, London W1B 5AH, UK",
+      "file": "agent_output/20260716_223704/360_view/Liberty_London/E.jpg",
+      "heading": "E (90\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 90,
+        "reason": "The image shows an interior view with displays, not a storefront entrance."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 90% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "Chestnut Bakery, Piccadilly",
+      "address": "162 Piccadilly, London W1J 9ED, UK",
+      "file": "agent_output/20260716_223704/360_view/Chestnut_Bakery,_Piccadilly/E.jpg",
+      "heading": "E (90\u00b0)",
+      "validation": {
+        "is_storefront": true,
+        "entrance_visible": false,
+        "bare_enough": true,
+        "suitable": false,
+        "confidence": 70,
+        "reason": "The space has a commercial look, suggesting a storefront, but scaffolding obscures the entrance. The area is plain, but without a clear entrance, planter suitability is uncertain."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 70% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "Saint + Sofia | Covent Garden",
+      "address": "35 Monmouth St, London WC2H 9DD, UK",
+      "file": "agent_output/20260716_223704/360_view/Saint_+_Sofia_|_Covent_Garden/SE.jpg",
+      "heading": "SE (135\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 95,
+        "reason": "The image appears to show an interior space, not an exterior storefront or entrance."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 95% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "Liberty London",
+      "address": "Regent St., Carnaby, London W1B 5AH, UK",
+      "file": "agent_output/20260716_223704/360_view/Liberty_London/SE.jpg",
+      "heading": "SE (135\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 95,
+        "reason": "The image shows the interior of a store, not a storefront or entrance. Planters would not be suitable in this context."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 95% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "Chestnut Bakery, Piccadilly",
+      "address": "162 Piccadilly, London W1J 9ED, UK",
+      "file": "agent_output/20260716_223704/360_view/Chestnut_Bakery,_Piccadilly/SE.jpg",
+      "heading": "SE (135\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 60,
+        "reason": "The image shows a street view without any clear storefront or visible entrance. It's not possible to determine if planters would be suitable."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 60% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "Saint + Sofia | Covent Garden",
+      "address": "35 Monmouth St, London WC2H 9DD, UK",
+      "file": "agent_output/20260716_223704/360_view/Saint_+_Sofia_|_Covent_Garden/S.jpg",
+      "heading": "S (180\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 90,
+        "reason": "The image does not show a storefront or a shop entrance; rather, it depicts abstract artwork."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 90% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "Chestnut Bakery, Piccadilly",
+      "address": "162 Piccadilly, London W1J 9ED, UK",
+      "file": "agent_output/20260716_223704/360_view/Chestnut_Bakery,_Piccadilly/S.jpg",
+      "heading": "S (180\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 90,
+        "reason": "The image depicts a street view with vehicles and buildings, but no clear storefront or entrance is visible."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 90% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "Liberty London",
+      "address": "Regent St., Carnaby, London W1B 5AH, UK",
+      "file": "agent_output/20260716_223704/360_view/Liberty_London/S.jpg",
+      "heading": "S (180\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 95,
+        "reason": "The image shows an interior view of the store with displays and not a storefront."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 95% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "Saint + Sofia | Covent Garden",
+      "address": "35 Monmouth St, London WC2H 9DD, UK",
+      "file": "agent_output/20260716_223704/360_view/Saint_+_Sofia_|_Covent_Garden/SW.jpg",
+      "heading": "SW (225\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 90,
+        "reason": "The image shows interior art and not a storefront or entrance, thus planters are not suitable."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 90% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "Chestnut Bakery, Piccadilly",
+      "address": "162 Piccadilly, London W1J 9ED, UK",
+      "file": "agent_output/20260716_223704/360_view/Chestnut_Bakery,_Piccadilly/SW.jpg",
+      "heading": "SW (225\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 70,
+        "reason": "The image shows a busy street corner with a truck blocking the view. The storefront is not clearly visible, making it difficult to assess for planter installation."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 70% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "Liberty London",
+      "address": "Regent St., Carnaby, London W1B 5AH, UK",
+      "file": "agent_output/20260716_223704/360_view/Liberty_London/SW.jpg",
+      "heading": "SW (225\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 90,
+        "reason": "The image shows an interior view with merchandise displayed, not an exterior storefront or entrance."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 90% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "Saint + Sofia | Covent Garden",
+      "address": "35 Monmouth St, London WC2H 9DD, UK",
+      "file": "agent_output/20260716_223704/360_view/Saint_+_Sofia_|_Covent_Garden/W.jpg",
+      "heading": "W (270\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 90,
+        "reason": "The image shows the interior of a store, not the exterior or the storefront where planters could be installed."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 90% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "Chestnut Bakery, Piccadilly",
+      "address": "162 Piccadilly, London W1J 9ED, UK",
+      "file": "agent_output/20260716_223704/360_view/Chestnut_Bakery,_Piccadilly/W.jpg",
+      "heading": "W (270\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 80,
+        "reason": "The image shows a street intersection rather than a specific storefront entrance."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 80% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "Liberty London",
+      "address": "Regent St., Carnaby, London W1B 5AH, UK",
+      "file": "agent_output/20260716_223704/360_view/Liberty_London/W.jpg",
+      "heading": "W (270\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 90,
+        "reason": "The image shows an interior space rather than an exterior storefront or entrance."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 90% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "Saint + Sofia | Covent Garden",
+      "address": "35 Monmouth St, London WC2H 9DD, UK",
+      "file": "agent_output/20260716_223704/360_view/Saint_+_Sofia_|_Covent_Garden/NW.jpg",
+      "heading": "NW (315\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 90,
+        "reason": "The image shows the interior of a store, not the storefront or entrance."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 90% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "Chestnut Bakery, Piccadilly",
+      "address": "162 Piccadilly, London W1J 9ED, UK",
+      "file": "agent_output/20260716_223704/360_view/Chestnut_Bakery,_Piccadilly/NW.jpg",
+      "heading": "NW (315\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 90,
+        "reason": "The image shows a street intersection with no clear view of a specific storefront or entrance."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 90% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "Liberty London",
+      "address": "Regent St., Carnaby, London W1B 5AH, UK",
+      "file": "agent_output/20260716_223704/360_view/Liberty_London/NW.jpg",
+      "heading": "NW (315\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 90,
+        "reason": "The image appears to show the interior of a shop rather than the storefront or entrance."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 90% < 70% or suitable=False"
+    },
+    {
+      "type": "google_places",
+      "venue": "Saint + Sofia | Covent Garden",
+      "address": "35 Monmouth St, London WC2H 9DD, UK",
+      "file": "agent_output/20260716_223704/google_places/Saint_+_Sofia_|_Covent_Garden/photo_1.jpg",
+      "photo_index": 1,
+      "validation": {
+        "is_storefront": true,
+        "entrance_visible": true,
+        "bare_enough": true,
+        "suitable": true,
+        "confidence": 95,
+        "reason": "The storefront is clearly visible and identifiable with a prominent entrance. The fa\u00e7ade is plain and minimalistic, suggesting that planters could enhance its appearance. There appears to be enough space for planters."
+      },
+      "is_suitable": true,
+      "reason_rejected": null
+    },
+    {
+      "type": "google_places",
+      "venue": "Liberty London",
+      "address": "Regent St., Carnaby, London W1B 5AH, UK",
+      "file": "agent_output/20260716_223704/google_places/Liberty_London/photo_1.jpg",
+      "photo_index": 1,
+      "validation": {
+        "is_storefront": true,
+        "entrance_visible": true,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 95,
+        "reason": "The storefront is clearly visible and identifiable as a shop entrance. However, it is ornate and well-designed, so planters would not significantly enhance its appearance."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 95% < 70% or suitable=False"
+    },
+    {
+      "type": "google_places",
+      "venue": "Liberty London",
+      "address": "Regent St., Carnaby, London W1B 5AH, UK",
+      "file": "agent_output/20260716_223704/google_places/Liberty_London/photo_2.jpg",
+      "photo_index": 2,
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 95,
+        "reason": "The image depicts an interior with a decorative roof structure, not a storefront entrance."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 95% < 70% or suitable=False"
+    },
+    {
+      "type": "google_places",
+      "venue": "Chestnut Bakery, Piccadilly",
+      "address": "162 Piccadilly, London W1J 9ED, UK",
+      "file": "agent_output/20260716_223704/google_places/Chestnut_Bakery,_Piccadilly/photo_1.jpg",
+      "photo_index": 1,
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 90,
+        "reason": "The image shows an interior view of a cafe or bakery, not the storefront. Planters cannot be evaluated for this setting."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 90% < 70% or suitable=False"
+    },
+    {
+      "type": "google_places",
+      "venue": "Liberty London",
+      "address": "Regent St., Carnaby, London W1B 5AH, UK",
+      "file": "agent_output/20260716_223704/google_places/Liberty_London/photo_3.jpg",
+      "photo_index": 3,
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 95,
+        "reason": "The image shows an interior view with multiple levels and merchandise displays, not a storefront entrance."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 95% < 70% or suitable=False"
+    },
+    {
+      "type": "google_places",
+      "venue": "Chestnut Bakery, Piccadilly",
+      "address": "162 Piccadilly, London W1J 9ED, UK",
+      "file": "agent_output/20260716_223704/google_places/Chestnut_Bakery,_Piccadilly/photo_2.jpg",
+      "photo_index": 2,
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 95,
+        "reason": "The image shows a pastry on a plate indoors, not a storefront."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 95% < 70% or suitable=False"
+    },
+    {
+      "type": "google_places",
+      "venue": "Liberty London",
+      "address": "Regent St., Carnaby, London W1B 5AH, UK",
+      "file": "agent_output/20260716_223704/google_places/Liberty_London/photo_4.jpg",
+      "photo_index": 4,
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 95,
+        "reason": "The image shows an interior space with displays of products, not a storefront or shop entrance."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 95% < 70% or suitable=False"
+    },
+    {
+      "type": "google_places",
+      "venue": "Chestnut Bakery, Piccadilly",
+      "address": "162 Piccadilly, London W1J 9ED, UK",
+      "file": "agent_output/20260716_223704/google_places/Chestnut_Bakery,_Piccadilly/photo_3.jpg",
+      "photo_index": 3,
+      "validation": {
+        "is_storefront": true,
+        "entrance_visible": true,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 95,
+        "reason": "The storefront is clearly visible, with an entrance that is currently adorned with decorative flowers, reducing the need for additional planters."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 95% < 70% or suitable=False"
+    },
+    {
+      "type": "google_places",
+      "venue": "Liberty London",
+      "address": "Regent St., Carnaby, London W1B 5AH, UK",
+      "file": "agent_output/20260716_223704/google_places/Liberty_London/photo_5.jpg",
+      "photo_index": 5,
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 95,
+        "reason": "The image depicts an interior space, not an exterior storefront or entrance."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 95% < 70% or suitable=False"
+    },
+    {
+      "type": "google_places",
+      "venue": "Chestnut Bakery, Piccadilly",
+      "address": "162 Piccadilly, London W1J 9ED, UK",
+      "file": "agent_output/20260716_223704/google_places/Chestnut_Bakery,_Piccadilly/photo_4.jpg",
+      "photo_index": 4,
+      "validation": {
+        "is_storefront": true,
+        "entrance_visible": true,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 95,
+        "reason": "The storefront is already adorned with abundant floral decorations, making additional planters unnecessary."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 95% < 70% or suitable=False"
+    },
+    {
+      "type": "google_places",
+      "venue": "Liberty London",
+      "address": "Regent St., Carnaby, London W1B 5AH, UK",
+      "file": "agent_output/20260716_223704/google_places/Liberty_London/photo_6.jpg",
+      "photo_index": 6,
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 95,
+        "reason": "The image shows an interior space rather than an exterior storefront or entrance."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 95% < 70% or suitable=False"
+    },
+    {
+      "type": "google_places",
+      "venue": "Chestnut Bakery, Piccadilly",
+      "address": "162 Piccadilly, London W1J 9ED, UK",
+      "file": "agent_output/20260716_223704/google_places/Chestnut_Bakery,_Piccadilly/photo_5.jpg",
+      "photo_index": 5,
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 95,
+        "reason": "The image shows an interior of a caf\u00e9 with a counter and shelves, not an exterior storefront."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 95% < 70% or suitable=False"
+    },
+    {
+      "type": "google_places",
+      "venue": "Liberty London",
+      "address": "Regent St., Carnaby, London W1B 5AH, UK",
+      "file": "agent_output/20260716_223704/google_places/Liberty_London/photo_7.jpg",
+      "photo_index": 7,
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 95,
+        "reason": "The image shows an interior with fabric displays, not an exterior storefront or entrance."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 95% < 70% or suitable=False"
+    },
+    {
+      "type": "google_places",
+      "venue": "Chestnut Bakery, Piccadilly",
+      "address": "162 Piccadilly, London W1J 9ED, UK",
+      "file": "agent_output/20260716_223704/google_places/Chestnut_Bakery,_Piccadilly/photo_6.jpg",
+      "photo_index": 6,
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 90,
+        "reason": "The image shows the interior of a bakery rather than the exterior storefront."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 90% < 70% or suitable=False"
+    },
+    {
+      "type": "google_places",
+      "venue": "Liberty London",
+      "address": "Regent St., Carnaby, London W1B 5AH, UK",
+      "file": "agent_output/20260716_223704/google_places/Liberty_London/photo_8.jpg",
+      "photo_index": 8,
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 95,
+        "reason": "The image shows an interior space with products and people inside a store, not a storefront or entrance."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 95% < 70% or suitable=False"
+    },
+    {
+      "type": "google_places",
+      "venue": "Chestnut Bakery, Piccadilly",
+      "address": "162 Piccadilly, London W1J 9ED, UK",
+      "file": "agent_output/20260716_223704/google_places/Chestnut_Bakery,_Piccadilly/photo_7.jpg",
+      "photo_index": 7,
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 90,
+        "reason": "The image shows the interior of a bakery display, not the storefront or entrance."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 90% < 70% or suitable=False"
+    },
+    {
+      "type": "google_places",
+      "venue": "Liberty London",
+      "address": "Regent St., Carnaby, London W1B 5AH, UK",
+      "file": "agent_output/20260716_223704/google_places/Liberty_London/photo_9.jpg",
+      "photo_index": 9,
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 90,
+        "reason": "The image shows an interior view, not an exterior storefront or entrance. Hence, planters are not applicable for evaluation."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 90% < 70% or suitable=False"
+    },
+    {
+      "type": "google_places",
+      "venue": "Chestnut Bakery, Piccadilly",
+      "address": "162 Piccadilly, London W1J 9ED, UK",
+      "file": "agent_output/20260716_223704/google_places/Chestnut_Bakery,_Piccadilly/photo_8.jpg",
+      "photo_index": 8,
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 90,
+        "reason": "The image is of food and drink, not a storefront or entrance."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 90% < 70% or suitable=False"
+    },
+    {
+      "type": "google_places",
+      "venue": "Liberty London",
+      "address": "Regent St., Carnaby, London W1B 5AH, UK",
+      "file": "agent_output/20260716_223704/google_places/Liberty_London/photo_10.jpg",
+      "photo_index": 10,
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 95,
+        "reason": "This is an interior of a retail space with perfume display and not a storefront."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 95% < 70% or suitable=False"
+    },
+    {
+      "type": "google_places",
+      "venue": "Chestnut Bakery, Piccadilly",
+      "address": "162 Piccadilly, London W1J 9ED, UK",
+      "file": "agent_output/20260716_223704/google_places/Chestnut_Bakery,_Piccadilly/photo_9.jpg",
+      "photo_index": 9,
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 100,
+        "reason": "The image shows a close-up of food and drink, not a storefront or entrance."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 100% < 70% or suitable=False"
+    },
+    {
+      "type": "google_places",
+      "venue": "Chestnut Bakery, Piccadilly",
+      "address": "162 Piccadilly, London W1J 9ED, UK",
+      "file": "agent_output/20260716_223704/google_places/Chestnut_Bakery,_Piccadilly/photo_10.jpg",
+      "photo_index": 10,
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 90,
+        "reason": "The image shows food items, not a storefront or entrance."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 90% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "Gielly Green",
+      "address": "42-44 George St, London W1U 7ES, UK",
+      "file": "agent_output/20260716_223704/360_view/Gielly_Green/N.jpg",
+      "heading": "N (0\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 100,
+        "reason": "The image shows an interior view of a salon, not a storefront entrance."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 100% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "Bageriet",
+      "address": "24 Rose St, London WC2E 9EA, UK",
+      "file": "agent_output/20260716_223704/360_view/Bageriet/N.jpg",
+      "heading": "N (0\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 100,
+        "reason": "The image shows an interior space, not a storefront or shop entrance."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 100% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "Fallow",
+      "address": "52 Haymarket, London SW1Y 4RP, UK",
+      "file": "agent_output/20260716_223704/360_view/Fallow/N.jpg",
+      "heading": "N (0\u00b0)",
+      "validation": {
+        "is_storefront": true,
+        "entrance_visible": false,
+        "bare_enough": true,
+        "suitable": false,
+        "confidence": 75,
+        "reason": "The image shows a street view with buildings that are likely storefronts, but the entrance to Fallow is not clearly visible. The area is somewhat plain and could benefit from planters, but without a visible entrance, suitability is uncertain."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 75% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "Bageriet",
+      "address": "24 Rose St, London WC2E 9EA, UK",
+      "file": "agent_output/20260716_223704/360_view/Bageriet/NE.jpg",
+      "heading": "NE (45\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 95,
+        "reason": "The image shows an interior view of a dining area, not a storefront or entrance."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 95% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "Gielly Green",
+      "address": "42-44 George St, London W1U 7ES, UK",
+      "file": "agent_output/20260716_223704/360_view/Gielly_Green/NE.jpg",
+      "heading": "NE (45\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 95,
+        "reason": "The image shows an interior space not the storefront. Planters cannot be installed inside as part of storefront enhancement."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 95% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "Fallow",
+      "address": "52 Haymarket, London SW1Y 4RP, UK",
+      "file": "agent_output/20260716_223704/360_view/Fallow/NE.jpg",
+      "heading": "NE (45\u00b0)",
+      "validation": {
+        "is_storefront": true,
+        "entrance_visible": true,
+        "bare_enough": true,
+        "suitable": true,
+        "confidence": 90,
+        "reason": "The image shows a storefront with a visible entrance. The area is plain, and planters would enhance its appearance."
+      },
+      "is_suitable": true,
+      "reason_rejected": null
+    },
+    {
+      "type": "street_view",
+      "venue": "Bageriet",
+      "address": "24 Rose St, London WC2E 9EA, UK",
+      "file": "agent_output/20260716_223704/360_view/Bageriet/E.jpg",
+      "heading": "E (90\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 90,
+        "reason": "The image depicts an interior space of a restaurant or cafe, not a storefront."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 90% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "Gielly Green",
+      "address": "42-44 George St, London W1U 7ES, UK",
+      "file": "agent_output/20260716_223704/360_view/Gielly_Green/E.jpg",
+      "heading": "E (90\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 100,
+        "reason": "The image depicts an interior space, not a storefront or entrance."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 100% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "Bageriet",
+      "address": "24 Rose St, London WC2E 9EA, UK",
+      "file": "agent_output/20260716_223704/360_view/Bageriet/SE.jpg",
+      "heading": "SE (135\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 90,
+        "reason": "The image shows an interior dining area, not a storefront with an entrance."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 90% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "Gielly Green",
+      "address": "42-44 George St, London W1U 7ES, UK",
+      "file": "agent_output/20260716_223704/360_view/Gielly_Green/SE.jpg",
+      "heading": "SE (135\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 90,
+        "reason": "The image shows an interior space rather than a storefront or shop entrance. No visible exterior entrance or frontage is evident."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 90% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "Bageriet",
+      "address": "24 Rose St, London WC2E 9EA, UK",
+      "file": "agent_output/20260716_223704/360_view/Bageriet/S.jpg",
+      "heading": "S (180\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 90,
+        "reason": "The image shows an interior setting of a restaurant and not a storefront. The entrance is not visible, and the space is already decorated with plants."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 90% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "Bageriet",
+      "address": "24 Rose St, London WC2E 9EA, UK",
+      "file": "agent_output/20260716_223704/360_view/Bageriet/SW.jpg",
+      "heading": "SW (225\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 90,
+        "reason": "The image shows the interior of a restaurant or cafe, not a storefront entrance."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 90% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "Gielly Green",
+      "address": "42-44 George St, London W1U 7ES, UK",
+      "file": "agent_output/20260716_223704/360_view/Gielly_Green/S.jpg",
+      "heading": "S (180\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 95,
+        "reason": "The image shows an interior space rather than a storefront or shop entrance."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 95% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "Gielly Green",
+      "address": "42-44 George St, London W1U 7ES, UK",
+      "file": "agent_output/20260716_223704/360_view/Gielly_Green/SW.jpg",
+      "heading": "SW (225\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 95,
+        "reason": "The image shows an interior space, not a storefront entrance."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 95% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "Bageriet",
+      "address": "24 Rose St, London WC2E 9EA, UK",
+      "file": "agent_output/20260716_223704/360_view/Bageriet/W.jpg",
+      "heading": "W (270\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 95,
+        "reason": "The image shows an interior setting of a dining area, not a storefront or entrance."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 95% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "Gielly Green",
+      "address": "42-44 George St, London W1U 7ES, UK",
+      "file": "agent_output/20260716_223704/360_view/Gielly_Green/W.jpg",
+      "heading": "W (270\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 90,
+        "reason": "The image shows a room interior, not a storefront or entrance."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 90% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "Bageriet",
+      "address": "24 Rose St, London WC2E 9EA, UK",
+      "file": "agent_output/20260716_223704/360_view/Bageriet/NW.jpg",
+      "heading": "NW (315\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 95,
+        "reason": "The image shows an interior space with tables and seating, not a storefront entrance."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 95% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "Gielly Green",
+      "address": "42-44 George St, London W1U 7ES, UK",
+      "file": "agent_output/20260716_223704/360_view/Gielly_Green/NW.jpg",
+      "heading": "NW (315\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 90,
+        "reason": "The image depicts an interior view, not a storefront or entrance."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 90% < 70% or suitable=False"
+    },
+    {
+      "type": "google_places",
+      "venue": "Bageriet",
+      "address": "24 Rose St, London WC2E 9EA, UK",
+      "file": "agent_output/20260716_223704/google_places/Bageriet/photo_1.jpg",
+      "photo_index": 1,
+      "validation": {
+        "is_storefront": true,
+        "entrance_visible": true,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 90,
+        "reason": "The storefront is clearly a shop entrance and the door is visible. It is already decorated with design elements and an awning, making it less suitable for additional planters."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 90% < 70% or suitable=False"
+    },
+    {
+      "type": "google_places",
+      "venue": "Gielly Green",
+      "address": "42-44 George St, London W1U 7ES, UK",
+      "file": "agent_output/20260716_223704/google_places/Gielly_Green/photo_1.jpg",
+      "photo_index": 1,
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 95,
+        "reason": "The image shows an interior view, not the exterior storefront or entrance."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 95% < 70% or suitable=False"
+    },
+    {
+      "type": "google_places",
+      "venue": "Bageriet",
+      "address": "24 Rose St, London WC2E 9EA, UK",
+      "file": "agent_output/20260716_223704/google_places/Bageriet/photo_2.jpg",
+      "photo_index": 2,
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 95,
+        "reason": "The image depicts an interior space of a shop filled with products and displays, without a visible entrance or external storefront."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 95% < 70% or suitable=False"
+    },
+    {
+      "type": "google_places",
+      "venue": "Gielly Green",
+      "address": "42-44 George St, London W1U 7ES, UK",
+      "file": "agent_output/20260716_223704/google_places/Gielly_Green/photo_2.jpg",
+      "photo_index": 2,
+      "validation": {
+        "is_storefront": true,
+        "entrance_visible": true,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 95,
+        "reason": "The storefront entrance is visible and appears well-maintained with existing plants and decorative elements, making additional planters unnecessary."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 95% < 70% or suitable=False"
+    },
+    {
+      "type": "google_places",
+      "venue": "Bageriet",
+      "address": "24 Rose St, London WC2E 9EA, UK",
+      "file": "agent_output/20260716_223704/google_places/Bageriet/photo_3.jpg",
+      "photo_index": 3,
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 90,
+        "reason": "The image shows a pastry, not a storefront or shop entrance."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 90% < 70% or suitable=False"
+    },
+    {
+      "type": "google_places",
+      "venue": "Gielly Green",
+      "address": "42-44 George St, London W1U 7ES, UK",
+      "file": "agent_output/20260716_223704/google_places/Gielly_Green/photo_3.jpg",
+      "photo_index": 3,
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 95,
+        "reason": "The image shows an interior space, not the exterior storefront or entrance."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 95% < 70% or suitable=False"
+    },
+    {
+      "type": "google_places",
+      "venue": "Bageriet",
+      "address": "24 Rose St, London WC2E 9EA, UK",
+      "file": "agent_output/20260716_223704/google_places/Bageriet/photo_4.jpg",
+      "photo_index": 4,
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 90,
+        "reason": "The image shows an interior table setting with food, not a storefront or entrance."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 90% < 70% or suitable=False"
+    },
+    {
+      "type": "google_places",
+      "venue": "Gielly Green",
+      "address": "42-44 George St, London W1U 7ES, UK",
+      "file": "agent_output/20260716_223704/google_places/Gielly_Green/photo_4.jpg",
+      "photo_index": 4,
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 95,
+        "reason": "The image shows an interior space with seating and shelves, not a storefront entrance."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 95% < 70% or suitable=False"
+    },
+    {
+      "type": "google_places",
+      "venue": "Gielly Green",
+      "address": "42-44 George St, London W1U 7ES, UK",
+      "file": "agent_output/20260716_223704/google_places/Gielly_Green/photo_5.jpg",
+      "photo_index": 5,
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 95,
+        "reason": "The image shows an interior salon setting, not a storefront or entrance."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 95% < 70% or suitable=False"
+    },
+    {
+      "type": "google_places",
+      "venue": "Bageriet",
+      "address": "24 Rose St, London WC2E 9EA, UK",
+      "file": "agent_output/20260716_223704/google_places/Bageriet/photo_5.jpg",
+      "photo_index": 5,
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 90,
+        "reason": "The image shows the view from inside looking out, and the storefront entrance is not visible."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 90% < 70% or suitable=False"
+    },
+    {
+      "type": "google_places",
+      "venue": "Gielly Green",
+      "address": "42-44 George St, London W1U 7ES, UK",
+      "file": "agent_output/20260716_223704/google_places/Gielly_Green/photo_6.jpg",
+      "photo_index": 6,
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 95,
+        "reason": "The image shows an interior space rather than a storefront entrance. The entrance is not visible, and planters are not suitable for this setting."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 95% < 70% or suitable=False"
+    },
+    {
+      "type": "google_places",
+      "venue": "Bageriet",
+      "address": "24 Rose St, London WC2E 9EA, UK",
+      "file": "agent_output/20260716_223704/google_places/Bageriet/photo_6.jpg",
+      "photo_index": 6,
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 90,
+        "reason": "The image shows an interior display of pastries, not a storefront entrance."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 90% < 70% or suitable=False"
+    },
+    {
+      "type": "google_places",
+      "venue": "Gielly Green",
+      "address": "42-44 George St, London W1U 7ES, UK",
+      "file": "agent_output/20260716_223704/google_places/Gielly_Green/photo_7.jpg",
+      "photo_index": 7,
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 90,
+        "reason": "The image shows an interior room, not a storefront or shop entrance."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 90% < 70% or suitable=False"
+    },
+    {
+      "type": "google_places",
+      "venue": "Gielly Green",
+      "address": "42-44 George St, London W1U 7ES, UK",
+      "file": "agent_output/20260716_223704/google_places/Gielly_Green/photo_8.jpg",
+      "photo_index": 8,
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 95,
+        "reason": "The image shows an interior setting, not a storefront or entrance."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 95% < 70% or suitable=False"
+    },
+    {
+      "type": "google_places",
+      "venue": "Bageriet",
+      "address": "24 Rose St, London WC2E 9EA, UK",
+      "file": "agent_output/20260716_223704/google_places/Bageriet/photo_7.jpg",
+      "photo_index": 7,
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 90,
+        "reason": "The image shows a pastry in focus, not a storefront."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 90% < 70% or suitable=False"
+    },
+    {
+      "type": "google_places",
+      "venue": "Bageriet",
+      "address": "24 Rose St, London WC2E 9EA, UK",
+      "file": "agent_output/20260716_223704/google_places/Bageriet/photo_8.jpg",
+      "photo_index": 8,
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 90,
+        "reason": "The image shows a pastry rather than a storefront entrance."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 90% < 70% or suitable=False"
+    },
+    {
+      "type": "google_places",
+      "venue": "Gielly Green",
+      "address": "42-44 George St, London W1U 7ES, UK",
+      "file": "agent_output/20260716_223704/google_places/Gielly_Green/photo_9.jpg",
+      "photo_index": 9,
+      "validation": {
+        "is_storefront": true,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 60,
+        "reason": "The sign indicates a storefront, but the entrance and overall space aren't visible enough to assess if planters would fit or improve the appearance."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 60% < 70% or suitable=False"
+    },
+    {
+      "type": "google_places",
+      "venue": "Bageriet",
+      "address": "24 Rose St, London WC2E 9EA, UK",
+      "file": "agent_output/20260716_223704/google_places/Bageriet/photo_9.jpg",
+      "photo_index": 9,
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 90,
+        "reason": "The image shows an interior display of baked goods, not a storefront or entrance."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 90% < 70% or suitable=False"
+    },
+    {
+      "type": "google_places",
+      "venue": "Gielly Green",
+      "address": "42-44 George St, London W1U 7ES, UK",
+      "file": "agent_output/20260716_223704/google_places/Gielly_Green/photo_10.jpg",
+      "photo_index": 10,
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 100,
+        "reason": "The image does not show a storefront or entrance; it is a close-up of hair."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 100% < 70% or suitable=False"
+    },
+    {
+      "type": "google_places",
+      "venue": "Bageriet",
+      "address": "24 Rose St, London WC2E 9EA, UK",
+      "file": "agent_output/20260716_223704/google_places/Bageriet/photo_10.jpg",
+      "photo_index": 10,
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 90,
+        "reason": "The image shows the interior of a shop, not the storefront, so it's unsuitable for planter installation analysis."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 90% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "The Wolseley Piccadilly",
+      "address": "160 Piccadilly, London W1J 9EB, UK",
+      "file": "agent_output/20260716_223704/360_view/The_Wolseley_Piccadilly/N.jpg",
+      "heading": "N (0\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 90,
+        "reason": "The image shows an interior space, not a storefront. The entrance is not visible."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 90% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "Regency Cafe",
+      "address": "17-19 Regency St, London SW1P 4BY, UK",
+      "file": "agent_output/20260716_223704/360_view/Regency_Cafe/N.jpg",
+      "heading": "N (0\u00b0)",
+      "validation": {
+        "is_storefront": true,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 70,
+        "reason": "The storefront is partially blocked by vehicles and scaffolding, making the entrance not clearly visible. The presence of hanging baskets reduces the bareness, indicating planters might not improve the space significantly."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 70% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "WatchHouse Seven Dials",
+      "address": "7 Upper St Martin's Ln, London WC2H 9DL, UK",
+      "file": "agent_output/20260716_223704/360_view/WatchHouse_Seven_Dials/N.jpg",
+      "heading": "N (0\u00b0)",
+      "validation": {
+        "is_storefront": true,
+        "entrance_visible": true,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 85,
+        "reason": "The storefront is clearly identifiable and the entrance is visible. However, the facade already has decorative greenery and awnings, making it less suitable for additional planters."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 85% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "The Wolseley Piccadilly",
+      "address": "160 Piccadilly, London W1J 9EB, UK",
+      "file": "agent_output/20260716_223704/360_view/The_Wolseley_Piccadilly/NE.jpg",
+      "heading": "NE (45\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 90,
+        "reason": "The image shows an interior space, not a storefront or entrance, hence planters are not applicable."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 90% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "Regency Cafe",
+      "address": "17-19 Regency St, London SW1P 4BY, UK",
+      "file": "agent_output/20260716_223704/360_view/Regency_Cafe/NE.jpg",
+      "heading": "NE (45\u00b0)",
+      "validation": {
+        "is_storefront": true,
+        "entrance_visible": true,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 90,
+        "reason": "The storefront is visible and identifiable as a cafe. However, planters may not be needed as there are already decorative elements present."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 90% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "WatchHouse Seven Dials",
+      "address": "7 Upper St Martin's Ln, London WC2H 9DL, UK",
+      "file": "agent_output/20260716_223704/360_view/WatchHouse_Seven_Dials/NE.jpg",
+      "heading": "NE (45\u00b0)",
+      "validation": {
+        "is_storefront": true,
+        "entrance_visible": true,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 90,
+        "reason": "The storefront is already decorated with greenery around the entrance, making additional planters unnecessary."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 90% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "The Wolseley Piccadilly",
+      "address": "160 Piccadilly, London W1J 9EB, UK",
+      "file": "agent_output/20260716_223704/360_view/The_Wolseley_Piccadilly/E.jpg",
+      "heading": "E (90\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 90,
+        "reason": "The image shows an interior with tables and people dining, not a storefront or entrance."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 90% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "Regency Cafe",
+      "address": "17-19 Regency St, London SW1P 4BY, UK",
+      "file": "agent_output/20260716_223704/360_view/Regency_Cafe/E.jpg",
+      "heading": "E (90\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": true,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 90,
+        "reason": "The image shows a building entrance, likely residential, rather than a storefront. The entrance is visible, but it is not bare enough for planters to improve it, and it's not suitable for a shop entrance evaluation."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 90% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "WatchHouse Seven Dials",
+      "address": "7 Upper St Martin's Ln, London WC2H 9DL, UK",
+      "file": "agent_output/20260716_223704/360_view/WatchHouse_Seven_Dials/E.jpg",
+      "heading": "E (90\u00b0)",
+      "validation": {
+        "is_storefront": true,
+        "entrance_visible": true,
+        "bare_enough": true,
+        "suitable": true,
+        "confidence": 95,
+        "reason": "The image shows a clear storefront with visible entrances. The area is plain enough, and there is space where planters could be added to enhance its appearance."
+      },
+      "is_suitable": true,
+      "reason_rejected": null
+    },
+    {
+      "type": "street_view",
+      "venue": "The Wolseley Piccadilly",
+      "address": "160 Piccadilly, London W1J 9EB, UK",
+      "file": "agent_output/20260716_223704/360_view/The_Wolseley_Piccadilly/SE.jpg",
+      "heading": "SE (135\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 95,
+        "reason": "The image shows an interior space that appears to be a restaurant, not an exterior storefront or entrance."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 95% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "Regency Cafe",
+      "address": "17-19 Regency St, London SW1P 4BY, UK",
+      "file": "agent_output/20260716_223704/360_view/Regency_Cafe/SE.jpg",
+      "heading": "SE (135\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 90,
+        "reason": "The image primarily shows a residential building with no visible storefront entrance. It does not appear to be a commercial shop entrance that would benefit from planters."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 90% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "The Wolseley Piccadilly",
+      "address": "160 Piccadilly, London W1J 9EB, UK",
+      "file": "agent_output/20260716_223704/360_view/The_Wolseley_Piccadilly/S.jpg",
+      "heading": "S (180\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 95,
+        "reason": "The image shows an interior setting with tables and people dining, not a storefront or entrance."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 95% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "Regency Cafe",
+      "address": "17-19 Regency St, London SW1P 4BY, UK",
+      "file": "agent_output/20260716_223704/360_view/Regency_Cafe/S.jpg",
+      "heading": "S (180\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 95,
+        "reason": "The image shows a street view with buildings, but not a clear storefront or entrance."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 95% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "The Wolseley Piccadilly",
+      "address": "160 Piccadilly, London W1J 9EB, UK",
+      "file": "agent_output/20260716_223704/360_view/The_Wolseley_Piccadilly/SW.jpg",
+      "heading": "SW (225\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 90,
+        "reason": "The image shows the interior of a dining area, not the exterior storefront or entrance."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 90% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "Regency Cafe",
+      "address": "17-19 Regency St, London SW1P 4BY, UK",
+      "file": "agent_output/20260716_223704/360_view/Regency_Cafe/SW.jpg",
+      "heading": "SW (225\u00b0)",
+      "validation": {
+        "is_storefront": true,
+        "entrance_visible": true,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 90,
+        "reason": "The storefront and entrance are visible, but there are already existing plants and greenery present, making additional planters unnecessary."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 90% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "The Wolseley Piccadilly",
+      "address": "160 Piccadilly, London W1J 9EB, UK",
+      "file": "agent_output/20260716_223704/360_view/The_Wolseley_Piccadilly/W.jpg",
+      "heading": "W (270\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 90,
+        "reason": "The image shows an interior setting with people dining, not an exterior storefront with a visible entrance."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 90% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "Regency Cafe",
+      "address": "17-19 Regency St, London SW1P 4BY, UK",
+      "file": "agent_output/20260716_223704/360_view/Regency_Cafe/W.jpg",
+      "heading": "W (270\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 90,
+        "reason": "The image does not clearly show a storefront or shop entrance, and the entrance is not visible. It appears to be a side of a building with windows but no clear entrance for a shop."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 90% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "The Wolseley Piccadilly",
+      "address": "160 Piccadilly, London W1J 9EB, UK",
+      "file": "agent_output/20260716_223704/360_view/The_Wolseley_Piccadilly/NW.jpg",
+      "heading": "NW (315\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 90,
+        "reason": "The image shows an interior space rather than a storefront entrance."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 90% < 70% or suitable=False"
+    },
+    {
+      "type": "street_view",
+      "venue": "Regency Cafe",
+      "address": "17-19 Regency St, London SW1P 4BY, UK",
+      "file": "agent_output/20260716_223704/360_view/Regency_Cafe/NW.jpg",
+      "heading": "NW (315\u00b0)",
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 90,
+        "reason": "The image shows a street with vehicles and brick buildings. No storefront or entrance is visible."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 90% < 70% or suitable=False"
+    },
+    {
+      "type": "google_places",
+      "venue": "The Wolseley Piccadilly",
+      "address": "160 Piccadilly, London W1J 9EB, UK",
+      "file": "agent_output/20260716_223704/google_places/The_Wolseley_Piccadilly/photo_1.jpg",
+      "photo_index": 1,
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 95,
+        "reason": "The image shows an interior space, not an exterior storefront or entrance."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 95% < 70% or suitable=False"
+    },
+    {
+      "type": "google_places",
+      "venue": "The Wolseley Piccadilly",
+      "address": "160 Piccadilly, London W1J 9EB, UK",
+      "file": "agent_output/20260716_223704/google_places/The_Wolseley_Piccadilly/photo_2.jpg",
+      "photo_index": 2,
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 95,
+        "reason": "The image shows an interior dining area with tables and people, not a storefront or entrance."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 95% < 70% or suitable=False"
+    },
+    {
+      "type": "google_places",
+      "venue": "Regency Cafe",
+      "address": "17-19 Regency St, London SW1P 4BY, UK",
+      "file": "agent_output/20260716_223704/google_places/Regency_Cafe/photo_1.jpg",
+      "photo_index": 1,
+      "validation": {
+        "is_storefront": true,
+        "entrance_visible": true,
+        "bare_enough": true,
+        "suitable": true,
+        "confidence": 95,
+        "reason": "The image shows a clear storefront with the entrance visible. The facade is plain and could benefit aesthetically from planters, which would fit well in the surrounding area."
+      },
+      "is_suitable": true,
+      "reason_rejected": null
+    },
+    {
+      "type": "google_places",
+      "venue": "The Wolseley Piccadilly",
+      "address": "160 Piccadilly, London W1J 9EB, UK",
+      "file": "agent_output/20260716_223704/google_places/The_Wolseley_Piccadilly/photo_3.jpg",
+      "photo_index": 3,
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 90,
+        "reason": "The image shows an interior cafe setting with food, not a storefront or entrance."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 90% < 70% or suitable=False"
+    },
+    {
+      "type": "google_places",
+      "venue": "The Wolseley Piccadilly",
+      "address": "160 Piccadilly, London W1J 9EB, UK",
+      "file": "agent_output/20260716_223704/google_places/The_Wolseley_Piccadilly/photo_4.jpg",
+      "photo_index": 4,
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 100,
+        "reason": "The image shows a plate of desserts, not a storefront or entrance."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 100% < 70% or suitable=False"
+    },
+    {
+      "type": "google_places",
+      "venue": "The Wolseley Piccadilly",
+      "address": "160 Piccadilly, London W1J 9EB, UK",
+      "file": "agent_output/20260716_223704/google_places/The_Wolseley_Piccadilly/photo_5.jpg",
+      "photo_index": 5,
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 90,
+        "reason": "The image shows a plate of food on a table, indicating an interior setting, not a storefront."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 90% < 70% or suitable=False"
+    },
+    {
+      "type": "google_places",
+      "venue": "The Wolseley Piccadilly",
+      "address": "160 Piccadilly, London W1J 9EB, UK",
+      "file": "agent_output/20260716_223704/google_places/The_Wolseley_Piccadilly/photo_6.jpg",
+      "photo_index": 6,
+      "validation": {
+        "is_storefront": true,
+        "entrance_visible": true,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 95,
+        "reason": "The storefront is clearly visible, but it is ornate and decorative, making planters unnecessary and potentially cluttered."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 95% < 70% or suitable=False"
+    },
+    {
+      "type": "google_places",
+      "venue": "The Wolseley Piccadilly",
+      "address": "160 Piccadilly, London W1J 9EB, UK",
+      "file": "agent_output/20260716_223704/google_places/The_Wolseley_Piccadilly/photo_7.jpg",
+      "photo_index": 7,
+      "validation": {
+        "is_storefront": true,
+        "entrance_visible": true,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 95,
+        "reason": "The location is a clear storefront and the entrance is visible. However, the facade is ornate and well-decorated, so planters may not improve the appearance significantly."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 95% < 70% or suitable=False"
+    },
+    {
+      "type": "google_places",
+      "venue": "The Wolseley Piccadilly",
+      "address": "160 Piccadilly, London W1J 9EB, UK",
+      "file": "agent_output/20260716_223704/google_places/The_Wolseley_Piccadilly/photo_8.jpg",
+      "photo_index": 8,
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 100,
+        "reason": "The image shows the interior of a restaurant with dining tables and patrons, not a storefront or entrance."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 100% < 70% or suitable=False"
+    },
+    {
+      "type": "google_places",
+      "venue": "The Wolseley Piccadilly",
+      "address": "160 Piccadilly, London W1J 9EB, UK",
+      "file": "agent_output/20260716_223704/google_places/The_Wolseley_Piccadilly/photo_9.jpg",
+      "photo_index": 9,
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 95,
+        "reason": "The image shows an interior setting with a dining arrangement, not a storefront or shop entrance."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 95% < 70% or suitable=False"
+    },
+    {
+      "type": "google_places",
+      "venue": "The Wolseley Piccadilly",
+      "address": "160 Piccadilly, London W1J 9EB, UK",
+      "file": "agent_output/20260716_223704/google_places/The_Wolseley_Piccadilly/photo_10.jpg",
+      "photo_index": 10,
+      "validation": {
+        "is_storefront": false,
+        "entrance_visible": false,
+        "bare_enough": false,
+        "suitable": false,
+        "confidence": 90,
+        "reason": "The image shows an interior setting rather than a storefront or shop entrance."
+      },
+      "is_suitable": false,
+      "reason_rejected": "Score 90% < 70% or suitable=False"
+    }
+  ]
+}
