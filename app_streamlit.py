@@ -4,7 +4,6 @@ import os
 from pathlib import Path
 from datetime import datetime
 import subprocess
-import cv2
 from PIL import Image
 import time
 
