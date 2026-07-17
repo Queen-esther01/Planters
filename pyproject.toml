@@ -7,7 +7,6 @@ requires-python = ">=3.13"
 dependencies = [
     "openai>=2.45.0",
     "openai-agents>=0.18.2",
-    "opencv-python",
     "opencv-python-headless>=5.0.0.93",
     "pillow>=12.3.0",
     "pydantic>=2.13.4",
