@@ -10,13 +10,18 @@ import time
 
 st.set_page_config(page_title="Planter Compositor", layout="wide")
 
+BASE_DIR = Path(os.environ.get("PLANTER_BASE_DIR", Path(__file__).resolve().parent))
+
 st.title("🪴 Storefront Planter Compositor")
 st.markdown("Generate realistic planter visualizations for London storefronts")
 
 # Sidebar for configuration
 st.sidebar.header("Configuration")
 planter_choice = st.sidebar.radio("Select Planter Product", ["Plant 1", "Plant 3"])
-planter_map = {"Plant 1": "planters/plant_1.png", "Plant 3": "planters/plant_3.png"}
+planter_map = {
+    "Plant 1": BASE_DIR / "planters/plant_1.png",
+    "Plant 3": BASE_DIR / "planters/plant_3.png",
+}
 planter_path = planter_map[planter_choice]
 
 # Main tabs
@@ -44,7 +49,7 @@ with tab1:
             try:
                 result = subprocess.run(
                     ["python", "autonomous_agent.py"],
-                    cwd="/Users/star/Documents/Dev/Planter",
+                    cwd=str(BASE_DIR),
                     capture_output=True,
                     text=True,
                     timeout=300
@@ -61,7 +66,7 @@ with tab1:
                 st.error(f"❌ Error running agent: {str(e)}")
 
     # Load and display candidates
-    results_pattern = Path("/Users/star/Documents/Dev/Planter/agent_output")
+    results_pattern = BASE_DIR / "agent_output"
     latest_run = None
 
     if results_pattern.exists():
@@ -119,7 +124,7 @@ with tab1:
                                 # Display image if available
                                 image_path = candidate.get("image", "")
                                 if image_path:
-                                    full_path = Path("/Users/star/Documents/Dev/Planter") / image_path
+                                    full_path = BASE_DIR / image_path
                                     if full_path.exists():
                                         st.markdown("**Storefront Image**")
                                         st.image(str(full_path), use_column_width=True)
@@ -140,7 +145,7 @@ with tab2:
     """)
 
     # Load candidates for selection
-    results_pattern = Path("/Users/star/Documents/Dev/Planter/agent_output")
+    results_pattern = BASE_DIR / "agent_output"
     latest_run = None
     candidates = []
 
@@ -186,15 +191,15 @@ with tab2:
             # Show preview images side by side
             image_path = selected.get("image", "")
             if image_path:
-                full_path = Path("/Users/star/Documents/Dev/Planter") / image_path
+                full_path = BASE_DIR / image_path
                 if full_path.exists():
                     st.markdown("**Preview**")
                     col1, col2 = st.columns(2)
 
                     with col1:
                         st.markdown("**Planter Product**")
-                        if Path(planter_path).exists():
-                            st.image(planter_path, use_column_width=True)
+                        if planter_path.exists():
+                            st.image(str(planter_path), use_column_width=True)
                         else:
                             st.warning(f"Planter image not found: {planter_path}")
 
@@ -223,11 +228,11 @@ with tab2:
                             "python",
                             "planter_compositor.py",
                             storefront_path,
-                            planter_path,
+                            str(planter_path),
                             "-o",
                             output_path
                         ],
-                        cwd="/Users/star/Documents/Dev/Planter",
+                        cwd=str(BASE_DIR),
                         capture_output=True,
                         text=True,
                         timeout=180
@@ -241,7 +246,7 @@ with tab2:
                         st.success("✅ Composite generated successfully!")
 
                         # Display result side by side
-                        output_full_path = Path("/Users/star/Documents/Dev/Planter") / output_path
+                        output_full_path = BASE_DIR / output_path
                         if output_full_path.exists():
                             st.markdown("### 🎉 Comparison")
                             col1, col2 = st.columns(2)
