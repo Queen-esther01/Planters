@@ -421,7 +421,7 @@ Opens at: `http://localhost:8501`
 - **Sidebar:** Choose between Plant 1 or Plant 3
 
 ### Command Line (Standalone)
-
+Note: The CLI is primarily for testing and debugging so you can view logs of agent activity; the Streamlit UI is the main interface, there are no logs.
 #### 1. Extract Planter Cutout (Preview)
 
 Visualize SAM+YOLO segmentation on a planter product photo:
