@@ -13,6 +13,7 @@ from ultralytics import SAM, YOLO
 import logging
 from PIL import Image, ImageDraw, ImageFont
 
+# cv2 fallback for successful streamlit deployment without opencv-python
 try:
     import cv2  # type: ignore
 except Exception:
